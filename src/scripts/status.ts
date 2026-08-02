@@ -43,7 +43,7 @@ async function main() {
 
   try {
     const usage = await getUsage();
-    console.log(`\nscrydex credits: ${usage.remaining_credits ?? '?'} remaining / ${usage.total_credits ?? '?'}`);
+    console.log(`\nscrydex credits: ${usage.credits_remaining ?? '?'} remaining (consumed ${usage.total_credits_consumed ?? '?'})`);
   } catch (error) {
     console.log(`\nscrydex usage unavailable: ${String(error)}`);
   }

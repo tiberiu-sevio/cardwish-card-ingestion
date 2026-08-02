@@ -87,7 +87,7 @@ export async function getUsage(): Promise<ScrydexUsage> {
  */
 export async function assertCreditsAvailable(): Promise<void> {
   const usage = await getUsage();
-  const remaining = usage.remaining_credits;
+  const remaining = usage.credits_remaining;
   if (typeof remaining === 'number' && remaining < env.scrydexMinCredits) {
     throw new Error(
       `Scrydex credits low: ${remaining} remaining < floor ${env.scrydexMinCredits}. ` +

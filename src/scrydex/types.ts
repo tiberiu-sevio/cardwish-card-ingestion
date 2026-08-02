@@ -38,10 +38,12 @@ export interface ScrydexCard {
 }
 
 export interface ScrydexUsage {
-  total_credits?: number;
-  remaining_credits?: number;
-  used_credits?: number;
-  overage_credit_rate?: number;
+  /** Live response field (the docs' remaining_credits name is outdated). */
+  credits_remaining?: number;
+  total_credits_consumed?: number;
+  overage_credits_consumed?: number;
+  period_start?: string;
+  period_end?: string;
   [key: string]: unknown;
 }
 

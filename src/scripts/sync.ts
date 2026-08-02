@@ -23,8 +23,10 @@ const log = createLogger('sync');
  * while it is new or its card total disagrees with what we have.
  */
 async function syncGames(games: string[]): Promise<void> {
-  await assertCreditsAvailable();
   for (const scrydexGame of games) {
+    // Re-checked between games: a multi-game backfill can burn thousands of
+    // credits, and overage bills silently.
+    await assertCreditsAvailable();
     const runId = await createRun('scrydex', `${scrydexGame}_sync`);
     try {
       const expansionCount = await syncExpansions(scrydexGame);
