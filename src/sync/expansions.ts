@@ -35,7 +35,6 @@ export async function syncExpansions(scrydexGame: string): Promise<number> {
       language: expansion.language ?? null,
       languageCode: expansion.language_code?.toLowerCase() ?? null,
       releaseDate,
-      year: releaseDate?.getUTCFullYear() ?? null,
       isOnlineOnly: expansion.is_online_only ?? false,
     };
     const row = await prisma.expansion.upsert({

@@ -35,7 +35,6 @@ export async function syncYugiohExpansions(): Promise<number> {
       language: 'English',
       languageCode: 'en',
       releaseDate,
-      year: releaseDate?.getUTCFullYear() ?? null,
     };
     const row = await prisma.expansion.upsert({
       where: { game_sourceId: { game: GAME, sourceId: slugifySetName(set.set_name) } },
