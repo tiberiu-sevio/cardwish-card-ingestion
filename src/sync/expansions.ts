@@ -23,7 +23,10 @@ export async function syncExpansions(scrydexGame: string): Promise<number> {
 
   for await (const expansion of pagedItems<ScrydexExpansion>(`/${scrydexGame}/v1/expansions`)) {
     const data = {
-      name: expansion.name,
+      // Canonical names are English: Japanese (and other non-EN) expansions
+      // carry their English rendering in translation.en. The printed-language
+      // original stays reachable via scrydexId; language columns record it.
+      name: expansion.translation?.en?.name ?? expansion.name,
       code: expansion.code ?? null,
       series: expansion.series ?? null,
       total: expansion.total ?? null,

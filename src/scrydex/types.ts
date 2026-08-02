@@ -1,5 +1,10 @@
 /** Scrydex objects (snake_case responses). Fields we don't map stay in the payload. */
 
+/** Non-English objects carry an English rendering nested under translation.en. */
+export interface ScrydexTranslation {
+  en?: { name?: string | null } | null;
+}
+
 export interface ScrydexExpansion {
   id: string;
   name: string;
@@ -14,6 +19,7 @@ export interface ScrydexExpansion {
   is_online_only?: boolean | null;
   logo?: string | null;
   symbol?: string | null;
+  translation?: ScrydexTranslation | null;
 }
 
 export interface ScrydexImage {
@@ -34,6 +40,7 @@ export interface ScrydexCard {
   images?: ScrydexImage[] | null;
   expansion?: ScrydexExpansion | null;
   variants?: { name?: string | null }[] | null;
+  translation?: ScrydexTranslation | null;
   [key: string]: unknown;
 }
 

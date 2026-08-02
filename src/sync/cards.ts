@@ -40,7 +40,9 @@ export async function syncExpansionCards(scrydexGame: string, expansion: Expansi
   for await (const card of pagedItems<ScrydexCard>(`/${scrydexGame}/v1/expansions/${expansion.scrydexId}/cards`)) {
     const front = frontImage(card.images);
     const data = {
-      name: card.name,
+      // English canonical name (see syncExpansions); the printed-language
+      // original survives in payload.name.
+      name: card.translation?.en?.name ?? card.name,
       setName: expansion.name,
       setCode: expansion.code,
       cardNumber: card.number ?? card.printed_number ?? null,
