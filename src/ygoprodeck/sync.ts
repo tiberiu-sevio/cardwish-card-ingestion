@@ -1,10 +1,9 @@
-import type { Expansion } from '@prisma/client';
 import { extensionFromUrl, mirrorAll, mirrorImage } from '../cdn/spaces';
 import { createLogger } from '../lib/logger';
 import { prisma } from '../lib/prisma';
 import { sleepWithJitter } from '../lib/sleep';
 import { fetchYgoSetCards, fetchYgoSets } from './client';
-import type { YgoCard } from './types';
+import type { YgoCard, YgoSet } from './types';
 
 const log = createLogger('ygo:sync');
 
@@ -12,8 +11,7 @@ const GAME = 'yugioh';
 
 /**
  * YGOPRODeck set_codes are NOT unique (142 collisions, e.g. reprint products
- * sharing a code), but set names are — so the expansion sourceId is the
- * slugified name, which is also the join key card prints use.
+ * sharing a code), but set names are — so slugified names anchor identity.
  */
 function slugifySetName(name: string): string {
   return name
@@ -23,96 +21,148 @@ function slugifySetName(name: string): string {
     .replace(/^-|-$/g, '');
 }
 
-export async function syncYugiohExpansions(): Promise<number> {
-  const sets = await fetchYgoSets();
-  let count = 0;
-  for (const set of sets) {
-    const releaseDate = set.tcg_date ? new Date(`${set.tcg_date}T00:00:00Z`) : null;
-    const data = {
-      name: set.set_name,
-      code: set.set_code ?? null,
-      totalCardCount: set.num_of_cards ?? null,
-      language: 'English',
-      languageCode: 'en',
-      releaseDate,
-    };
-    const row = await prisma.expansion.upsert({
-      where: { game_sourceId: { game: GAME, sourceId: slugifySetName(set.set_name) } },
-      create: { game: GAME, sourceId: slugifySetName(set.set_name), ...data },
-      update: data,
-    });
-    count++;
-    if (set.set_image && !row.logoKey) {
-      const key = `expansions/${GAME}/${row.sourceId}-logo.${extensionFromUrl(set.set_image)}`;
-      try {
-        await mirrorImage(set.set_image, key);
-        await prisma.expansion.update({ where: { id: row.id }, data: { logoKey: key } });
-      } catch (error) {
-        log.warn(`set image mirror failed for ${row.sourceId}`, String(error));
-      }
-    }
-  }
-  log.info(`${GAME}: ${count} sets upserted`);
-  return count;
+/**
+ * Numbering-run prefix of a printed card number: "LOB-001" -> "LOB",
+ * "LOB-E001" -> "LOB-E", "LOB-EN001" -> "LOB-EN", "25LP-EN000" -> "25LP-EN".
+ * Strips only the trailing digit run (plus an optional variant letter).
+ */
+export function runPrefix(setCode: string): string {
+  return setCode.replace(/-?\d+[A-Za-z]?$/, '') || setCode;
 }
 
 /**
- * One DB row per PRINT (card × printed number), mirroring how Scrydex games
- * store one row per per-language print — that's the granularity graded slabs
- * identify. A card printed at the same number in several rarities is one row;
- * the rarity list survives in the payload.
+ * One EXPANSION row per numbering run of a product ("LOB", "LOB-E", "LOB-EN"
+ * all named "Legend of Blue Eyes White Dragon") — the same granularity the
+ * Scrydex games use for per-language prints, and the set size collectors
+ * recognize (~126, not 355). Run rows are derived from print data during the
+ * card sync; total_card_count is the run's print count.
+ *
+ * The "anything new?" gate therefore compares the SOURCE set's num_of_cards
+ * against the sum of its runs' synced counts.
  */
-export async function syncYugiohSetCards(expansion: Expansion): Promise<number> {
-  const cards = await fetchYgoSetCards(expansion.name);
+export async function syncYugioh(): Promise<{ expansions: number; prints: number }> {
+  const sets = await fetchYgoSets();
+
+  const rows = await prisma.expansion.findMany({
+    where: { game: GAME },
+    select: { sourceId: true, cardsSyncedAt: true, syncedCardCount: true },
+  });
+  const runsBySet = new Map<string, { synced: number; complete: boolean }>();
+  for (const row of rows) {
+    const setSlug = row.sourceId.split('/')[0];
+    const entry = runsBySet.get(setSlug) ?? { synced: 0, complete: true };
+    entry.synced += row.syncedCardCount;
+    entry.complete &&= row.cardsSyncedAt !== null;
+    runsBySet.set(setSlug, entry);
+  }
+
+  const pending = sets.filter((set) => {
+    const state = runsBySet.get(slugifySetName(set.set_name));
+    return !state || !state.complete || (set.num_of_cards != null && state.synced !== set.num_of_cards);
+  });
+  log.info(`${GAME}: ${sets.length} sets, ${pending.length} need card sync`);
+
   let prints = 0;
+  let expansions = 0;
+  for (const set of pending) {
+    const result = await syncYugiohSet(set);
+    prints += result.prints;
+    expansions += result.runs;
+    await sleepWithJitter(200);
+  }
+  return { expansions, prints };
+}
 
+interface PrintData {
+  cardId: number;
+  setCode: string;
+  rarities: string[];
+  card: YgoCard;
+}
+
+export async function syncYugiohSet(set: YgoSet): Promise<{ runs: number; prints: number }> {
+  const setSlug = slugifySetName(set.set_name);
+  const cards = await fetchYgoSetCards(set.set_name);
+
+  // Collect prints (deduped by code: multi-rarity prints are one row with the
+  // rarity list in the payload), grouped by numbering run.
+  const runs = new Map<string, PrintData[]>();
   for (const card of cards) {
-    const entries = (card.card_sets ?? []).filter((entry) => entry.set_name === expansion.name);
-    const byCode = new Map<string, { rarities: string[] }>();
-    for (const entry of entries) {
-      const existing = byCode.get(entry.set_code) ?? { rarities: [] };
-      if (entry.set_rarity && !existing.rarities.includes(entry.set_rarity)) {
-        existing.rarities.push(entry.set_rarity);
-      }
-      byCode.set(entry.set_code, existing);
+    const byCode = new Map<string, string[]>();
+    for (const entry of (card.card_sets ?? []).filter((e) => e.set_name === set.set_name)) {
+      const rarities = byCode.get(entry.set_code) ?? [];
+      if (entry.set_rarity && !rarities.includes(entry.set_rarity)) rarities.push(entry.set_rarity);
+      byCode.set(entry.set_code, rarities);
     }
-
-    const artwork = card.card_images?.[0] ?? null;
-    for (const [setCode, { rarities }] of byCode) {
-      const data = {
-        name: card.name,
-        setName: expansion.name,
-        // Prefix before the dash ("LOB-EN005" -> "LOB"); the full printed
-        // number is the card number, which is what slab labels carry.
-        setCode: setCode.split('-')[0] ?? null,
-        cardNumber: setCode,
-        language: 'en',
-        imageUrl: artwork?.image_url ?? null,
-        expansionId: expansion.id,
-        rarity: rarities[0] ?? null,
-        payload: buildPayload(card, rarities),
-      };
-      // The expansion is part of the print identity: reprint products (e.g.
-      // LOB 25th Anniversary) reuse the original's set_codes for their new
-      // rarities, and without the expansion in the key the two products
-      // steal the shared codes from each other on every sync.
-      const sourceId = `${expansion.sourceId}/${card.id}-${setCode}`;
-      await prisma.card.upsert({
-        where: { game_sourceId: { game: GAME, sourceId } },
-        create: { game: GAME, sourceId, ...data },
-        update: data,
-      });
-      prints++;
+    for (const [setCode, rarities] of byCode) {
+      const run = runPrefix(setCode);
+      const prints = runs.get(run) ?? [];
+      prints.push({ cardId: card.id, setCode, rarities, card });
+      runs.set(run, prints);
     }
   }
 
-  const syncedCardCount = await prisma.card.count({ where: { expansionId: expansion.id } });
-  await prisma.expansion.update({
-    where: { id: expansion.id },
-    data: { cardsSyncedAt: new Date(), syncedCardCount },
-  });
-  log.info(`${GAME}/${expansion.sourceId}: ${prints} prints from ${cards.length} cards (total ${expansion.totalCardCount ?? '?'})`);
-  return prints;
+  let printCount = 0;
+  for (const [run, prints] of runs) {
+    const expansionSourceId = `${setSlug}/${run}`;
+    const data = {
+      name: set.set_name,
+      code: run,
+      totalCardCount: prints.length,
+      language: 'English',
+      languageCode: 'en',
+      releaseDate: set.tcg_date ? new Date(`${set.tcg_date}T00:00:00Z`) : null,
+    };
+    const expansion = await prisma.expansion.upsert({
+      where: { game_sourceId: { game: GAME, sourceId: expansionSourceId } },
+      create: { game: GAME, sourceId: expansionSourceId, ...data },
+      update: data,
+    });
+
+    // Product logo, shared by every run of the set (one CDN object).
+    if (set.set_image && !expansion.logoKey) {
+      const key = `expansions/${GAME}/${setSlug}-logo.${extensionFromUrl(set.set_image)}`;
+      try {
+        await mirrorImage(set.set_image, key);
+        await prisma.expansion.update({ where: { id: expansion.id }, data: { logoKey: key } });
+      } catch (error) {
+        log.warn(`set image mirror failed for ${setSlug}`, String(error));
+      }
+    }
+
+    for (const print of prints) {
+      const artwork = print.card.card_images?.[0] ?? null;
+      const sourceId = `${expansionSourceId}/${print.cardId}-${print.setCode}`;
+      const cardData = {
+        name: print.card.name,
+        setName: set.set_name,
+        setCode: run,
+        cardNumber: print.setCode,
+        language: 'en',
+        imageUrl: artwork?.image_url ?? null,
+        expansionId: expansion.id,
+        rarity: print.rarities[0] ?? null,
+        payload: buildPayload(print.card, print.rarities),
+      };
+      await prisma.card.upsert({
+        where: { game_sourceId: { game: GAME, sourceId } },
+        create: { game: GAME, sourceId, ...cardData },
+        update: cardData,
+      });
+      printCount++;
+    }
+
+    const syncedCardCount = await prisma.card.count({ where: { expansionId: expansion.id } });
+    await prisma.expansion.update({
+      where: { id: expansion.id },
+      data: { cardsSyncedAt: new Date(), syncedCardCount },
+    });
+  }
+
+  log.info(
+    `${GAME}/${setSlug}: ${printCount} prints in ${runs.size} run(s) [${[...runs.keys()].join(', ')}] (source total ${set.num_of_cards ?? '?'})`,
+  );
+  return { runs: runs.size, prints: printCount };
 }
 
 function buildPayload(card: YgoCard, rarities: string[]): object {
@@ -127,20 +177,6 @@ function buildPayload(card: YgoCard, rarities: string[]): object {
     rarities,
     artwork: artwork ? { small: artwork.image_url_small ?? null, large: artwork.image_url ?? null } : null,
   };
-}
-
-export async function syncYugioh(): Promise<{ expansions: number; prints: number }> {
-  const expansions = await syncYugiohExpansions();
-  const pending = (
-    await prisma.expansion.findMany({ where: { game: GAME }, orderBy: { releaseDate: 'desc' } })
-  ).filter((row) => row.cardsSyncedAt === null || (row.totalCardCount !== null && row.totalCardCount !== row.syncedCardCount));
-  log.info(`${GAME}: ${pending.length} sets need card sync`);
-  let prints = 0;
-  for (const expansion of pending) {
-    prints += await syncYugiohSetCards(expansion);
-    await sleepWithJitter(200);
-  }
-  return { expansions, prints };
 }
 
 /**
