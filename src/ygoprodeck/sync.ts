@@ -92,9 +92,14 @@ export async function syncYugiohSetCards(expansion: Expansion): Promise<number> 
         rarity: rarities[0] ?? null,
         payload: buildPayload(card, rarities),
       };
+      // The expansion is part of the print identity: reprint products (e.g.
+      // LOB 25th Anniversary) reuse the original's set_codes for their new
+      // rarities, and without the expansion in the key the two products
+      // steal the shared codes from each other on every sync.
+      const sourceId = `${expansion.sourceId}/${card.id}-${setCode}`;
       await prisma.card.upsert({
-        where: { game_sourceId: { game: GAME, sourceId: `${card.id}-${setCode}` } },
-        create: { game: GAME, sourceId: `${card.id}-${setCode}`, ...data },
+        where: { game_sourceId: { game: GAME, sourceId } },
+        create: { game: GAME, sourceId, ...data },
         update: data,
       });
       prints++;
