@@ -123,16 +123,18 @@ function buildPayload(card: YgoCard, rarities: string[]): object {
   };
 }
 
-export async function syncYugioh(): Promise<void> {
-  await syncYugiohExpansions();
+export async function syncYugioh(): Promise<{ expansions: number; prints: number }> {
+  const expansions = await syncYugiohExpansions();
   const pending = (
     await prisma.expansion.findMany({ where: { game: GAME }, orderBy: { releaseDate: 'desc' } })
   ).filter((row) => row.cardsSyncedAt === null || (row.totalCardCount !== null && row.totalCardCount !== row.syncedCardCount));
   log.info(`${GAME}: ${pending.length} sets need card sync`);
+  let prints = 0;
   for (const expansion of pending) {
-    await syncYugiohSetCards(expansion);
+    prints += await syncYugiohSetCards(expansion);
     await sleepWithJitter(200);
   }
+  return { expansions, prints };
 }
 
 /**

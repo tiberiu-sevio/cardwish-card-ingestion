@@ -43,7 +43,9 @@ async function syncGames(games: string[]): Promise<void> {
     const runId = await createRun(source, `${game}_sync`);
     try {
       if (source === 'ygoprodeck') {
-        await syncYugioh();
+        const result = await syncYugioh();
+        await incrementRun(runId, 'itemsSeen', result.expansions);
+        await incrementRun(runId, 'itemsUpdated', result.prints);
       } else {
         const expansionCount = await syncExpansions(game);
         await incrementRun(runId, 'itemsSeen', expansionCount);
