@@ -60,8 +60,10 @@ async function main() {
   } else if (command === 'images') {
     await mirrorMissingCardImages(gameArg ? GAME_SLUGS[gameArg] : undefined);
   } else if (command === 'all') {
-    await syncGames(games);
+    // Per game: sync then images, so one slow game's card sync doesn't hold
+    // every other game's images hostage.
     for (const game of games) {
+      await syncGames([game]);
       await mirrorMissingCardImages(GAME_SLUGS[game] ?? game);
     }
   } else if (command === 'usage') {
