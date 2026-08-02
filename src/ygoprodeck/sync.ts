@@ -30,7 +30,7 @@ export async function syncYugiohExpansions(): Promise<number> {
     const data = {
       name: set.set_name,
       code: set.set_code ?? null,
-      total: set.num_of_cards ?? null,
+      totalCardCount: set.num_of_cards ?? null,
       language: 'English',
       languageCode: 'en',
       releaseDate: set.tcg_date ? new Date(`${set.tcg_date}T00:00:00Z`) : null,
@@ -105,7 +105,7 @@ export async function syncYugiohSetCards(expansion: Expansion): Promise<number> 
     where: { id: expansion.id },
     data: { cardsSyncedAt: new Date(), syncedCardCount },
   });
-  log.info(`${GAME}/${expansion.sourceId}: ${prints} prints from ${cards.length} cards (total ${expansion.total ?? '?'})`);
+  log.info(`${GAME}/${expansion.sourceId}: ${prints} prints from ${cards.length} cards (total ${expansion.totalCardCount ?? '?'})`);
   return prints;
 }
 
@@ -127,7 +127,7 @@ export async function syncYugioh(): Promise<void> {
   await syncYugiohExpansions();
   const pending = (
     await prisma.expansion.findMany({ where: { game: GAME }, orderBy: { releaseDate: 'desc' } })
-  ).filter((row) => row.cardsSyncedAt === null || (row.total !== null && row.total !== row.syncedCardCount));
+  ).filter((row) => row.cardsSyncedAt === null || (row.totalCardCount !== null && row.totalCardCount !== row.syncedCardCount));
   log.info(`${GAME}: ${pending.length} sets need card sync`);
   for (const expansion of pending) {
     await syncYugiohSetCards(expansion);

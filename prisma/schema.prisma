@@ -51,8 +51,10 @@ model Expansion {
   name         String
   code         String?
   series       String?
-  total        Int?
-  printedTotal Int?      @map("printed_total")
+  /** Every distinct card, including secret rares numbered past the printed size. */
+  totalCardCount    Int? @map("total_card_count")
+  /** The set size printed on the cards — the denominator in "215/203". */
+  numberedCardCount Int? @map("numbered_card_count")
   language     String?
   languageCode String?   @map("language_code")
   releaseDate  DateTime? @map("release_date")

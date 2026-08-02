@@ -51,7 +51,7 @@ export function trimPayload(card: ScrydexCard): object {
 export async function expansionsNeedingCards(game: string): Promise<Expansion[]> {
   const rows = await prisma.expansion.findMany({ where: { game }, orderBy: { releaseDate: 'desc' } });
   return rows.filter(
-    (row) => row.cardsSyncedAt === null || (row.total !== null && row.total !== row.syncedCardCount),
+    (row) => row.cardsSyncedAt === null || (row.totalCardCount !== null && row.totalCardCount !== row.syncedCardCount),
   );
 }
 
@@ -89,6 +89,6 @@ export async function syncExpansionCards(scrydexGame: string, expansion: Expansi
     where: { id: expansion.id },
     data: { cardsSyncedAt: new Date(), syncedCardCount },
   });
-  log.info(`${game}/${expansion.sourceId} "${expansion.name}": ${seen} cards (total ${expansion.total ?? '?'})`);
+  log.info(`${game}/${expansion.sourceId} "${expansion.name}": ${seen} cards (total ${expansion.totalCardCount ?? '?'})`);
   return seen;
 }
