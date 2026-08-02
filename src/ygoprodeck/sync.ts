@@ -27,13 +27,15 @@ export async function syncYugiohExpansions(): Promise<number> {
   const sets = await fetchYgoSets();
   let count = 0;
   for (const set of sets) {
+    const releaseDate = set.tcg_date ? new Date(`${set.tcg_date}T00:00:00Z`) : null;
     const data = {
       name: set.set_name,
       code: set.set_code ?? null,
       totalCardCount: set.num_of_cards ?? null,
       language: 'English',
       languageCode: 'en',
-      releaseDate: set.tcg_date ? new Date(`${set.tcg_date}T00:00:00Z`) : null,
+      releaseDate,
+      year: releaseDate?.getUTCFullYear() ?? null,
     };
     const row = await prisma.expansion.upsert({
       where: { game_sourceId: { game: GAME, sourceId: slugifySetName(set.set_name) } },

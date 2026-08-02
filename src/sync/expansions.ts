@@ -22,6 +22,7 @@ export async function syncExpansions(scrydexGame: string): Promise<number> {
   let count = 0;
 
   for await (const expansion of pagedItems<ScrydexExpansion>(`/${scrydexGame}/v1/expansions`)) {
+    const releaseDate = parseReleaseDate(expansion.release_date);
     const data = {
       // Canonical names are English: Japanese (and other non-EN) expansions
       // carry their English rendering in translation.en. The printed-language
@@ -33,7 +34,8 @@ export async function syncExpansions(scrydexGame: string): Promise<number> {
       numberedCardCount: expansion.printed_total ?? null,
       language: expansion.language ?? null,
       languageCode: expansion.language_code?.toLowerCase() ?? null,
-      releaseDate: parseReleaseDate(expansion.release_date),
+      releaseDate,
+      year: releaseDate?.getUTCFullYear() ?? null,
       isOnlineOnly: expansion.is_online_only ?? false,
     };
     const row = await prisma.expansion.upsert({

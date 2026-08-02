@@ -58,6 +58,8 @@ model Expansion {
   language     String?
   languageCode String?   @map("language_code")
   releaseDate  DateTime? @map("release_date")
+  /** Release year, denormalized from releaseDate — matches listings.raw_year. */
+  year         Int?
   isOnlineOnly Boolean   @default(false) @map("is_online_only")
   logoKey      String?   @map("logo_key")
   symbolKey    String?   @map("symbol_key")
