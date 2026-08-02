@@ -2,7 +2,7 @@
 
 /** Non-English objects carry an English rendering nested under translation.en. */
 export interface ScrydexTranslation {
-  en?: { name?: string | null } | null;
+  en?: { name?: string | null; rarity?: string | null } | null;
 }
 
 export interface ScrydexExpansion {

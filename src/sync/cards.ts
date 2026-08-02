@@ -15,11 +15,19 @@ function frontImage(images: ScrydexImage[] | null | undefined): ScrydexImage | n
  * Payload kept for future features (gameplay attributes, variant names), with
  * the bulky parts we already store elsewhere stripped: the nested expansion
  * (we have the row) and variant image/price arrays (variant names survive).
+ *
+ * Everything stored is English: for non-English prints, translation.en (a full
+ * English rendering — name, attacks, abilities, flavor text, rarity...) is
+ * overlaid on the original, replacing the printed-language fields it covers.
+ * The language columns still record the actual print language.
  */
-function trimPayload(card: ScrydexCard): object {
-  const { expansion: _expansion, variants, ...rest } = card;
+export function trimPayload(card: ScrydexCard): object {
+  const { expansion: _expansion, variants, translation, ...rest } = card;
+  const en = (translation?.en ?? {}) as Record<string, unknown>;
+  const { expansion: _enExpansion, ...enFields } = en;
   return {
     ...rest,
+    ...Object.fromEntries(Object.entries(enFields).filter(([, value]) => value !== undefined)),
     variants: variants?.map((variant) => variant.name).filter(Boolean) ?? [],
   };
 }
@@ -49,7 +57,8 @@ export async function syncExpansionCards(scrydexGame: string, expansion: Expansi
       language: card.language_code?.toLowerCase() ?? expansion.languageCode,
       imageUrl: front?.large ?? front?.medium ?? front?.small ?? null,
       expansionId: expansion.id,
-      rarity: card.rarity ?? null,
+      // English canonical rarity too — JP prints label rarity in Japanese.
+      rarity: card.translation?.en?.rarity ?? card.rarity ?? null,
       payload: trimPayload(card) as object,
     };
     await prisma.card.upsert({
