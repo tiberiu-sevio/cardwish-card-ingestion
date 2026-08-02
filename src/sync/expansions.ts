@@ -25,7 +25,7 @@ export async function syncExpansions(scrydexGame: string): Promise<number> {
     const data = {
       // Canonical names are English: Japanese (and other non-EN) expansions
       // carry their English rendering in translation.en. The printed-language
-      // original stays reachable via scrydexId; language columns record it.
+      // original stays reachable via sourceId; language columns record it.
       name: expansion.translation?.en?.name ?? expansion.name,
       code: expansion.code ?? null,
       series: expansion.series ?? null,
@@ -37,8 +37,8 @@ export async function syncExpansions(scrydexGame: string): Promise<number> {
       isOnlineOnly: expansion.is_online_only ?? false,
     };
     const row = await prisma.expansion.upsert({
-      where: { game_scrydexId: { game, scrydexId: expansion.id } },
-      create: { game, scrydexId: expansion.id, ...data },
+      where: { game_sourceId: { game, sourceId: expansion.id } },
+      create: { game, sourceId: expansion.id, ...data },
       update: data,
     });
     count++;

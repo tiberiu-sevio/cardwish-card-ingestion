@@ -27,7 +27,7 @@ model Card {
   imageUrl   String?  @map("image_url")
   // CDN image columns hold object KEYS relative to the CDN root, never
   // absolute URLs — the bucket/CNAME will move.
-  scrydexId     String?  @map("scrydex_id")
+  sourceId     String?  @map("source_id")
   expansionId   String?  @map("expansion_id")
   rarity        String?
   imageSmallKey String?  @map("image_small_key")
@@ -39,7 +39,7 @@ model Card {
   expansion Expansion? @relation(fields: [expansionId], references: [id])
 
   @@unique([game, language, setSlug, slug])
-  @@unique([game, scrydexId])
+  @@unique([game, sourceId])
   @@index([expansionId])
   @@map("cards")
 }
@@ -47,7 +47,7 @@ model Card {
 model Expansion {
   id           String    @id @default(uuid())
   game         String
-  scrydexId    String    @map("scrydex_id")
+  sourceId    String    @map("source_id")
   name         String
   code         String?
   series       String?
@@ -66,7 +66,7 @@ model Expansion {
 
   cards Card[]
 
-  @@unique([game, scrydexId])
+  @@unique([game, sourceId])
   @@index([game, releaseDate])
   @@map("expansions")
 }

@@ -7,8 +7,20 @@ import { GAME_SLUGS } from '../scrydex/types';
 import { syncExpansionCards, expansionsNeedingCards } from '../sync/cards';
 import { syncExpansions } from '../sync/expansions';
 import { mirrorMissingCardImages } from '../sync/images';
+import { mirrorYugiohImages, syncYugioh } from '../ygoprodeck/sync';
 
 const log = createLogger('sync');
+
+const VALID_GAMES = [...Object.keys(GAME_SLUGS), 'yugioh'];
+
+/** DB game slug for a configured game name. */
+function dbGame(game: string): string {
+  return game === 'yugioh' ? 'yugioh' : (GAME_SLUGS[game] ?? game);
+}
+
+function mirrorImagesFor(game: string) {
+  return game === 'yugioh' ? mirrorYugiohImages() : mirrorMissingCardImages(dbGame(game));
+}
 
 /**
  * CLI:
@@ -23,20 +35,25 @@ const log = createLogger('sync');
  * while it is new or its card total disagrees with what we have.
  */
 async function syncGames(games: string[]): Promise<void> {
-  for (const scrydexGame of games) {
-    // Re-checked between games: a multi-game backfill can burn thousands of
-    // credits, and overage bills silently.
-    await assertCreditsAvailable();
-    const runId = await createRun('scrydex', `${scrydexGame}_sync`);
+  for (const game of games) {
+    // Yu-Gi-Oh comes from YGOPRODeck (free, no credits); everything else is
+    // Scrydex, re-checked between games because overage bills silently.
+    const source = game === 'yugioh' ? 'ygoprodeck' : 'scrydex';
+    if (source === 'scrydex') await assertCreditsAvailable();
+    const runId = await createRun(source, `${game}_sync`);
     try {
-      const expansionCount = await syncExpansions(scrydexGame);
-      await incrementRun(runId, 'itemsSeen', expansionCount);
+      if (source === 'ygoprodeck') {
+        await syncYugioh();
+      } else {
+        const expansionCount = await syncExpansions(game);
+        await incrementRun(runId, 'itemsSeen', expansionCount);
 
-      const pending = await expansionsNeedingCards(GAME_SLUGS[scrydexGame] ?? scrydexGame);
-      log.info(`${scrydexGame}: ${pending.length}/${expansionCount} expansions need card sync`);
-      for (const expansion of pending) {
-        const cards = await syncExpansionCards(scrydexGame, expansion);
-        await incrementRun(runId, 'itemsUpdated', cards);
+        const pending = await expansionsNeedingCards(dbGame(game));
+        log.info(`${game}: ${pending.length}/${expansionCount} expansions need card sync`);
+        for (const expansion of pending) {
+          const cards = await syncExpansionCards(game, expansion);
+          await incrementRun(runId, 'itemsUpdated', cards);
+        }
       }
       await finishRun(runId, 'success');
     } catch (error) {
@@ -44,27 +61,29 @@ async function syncGames(games: string[]): Promise<void> {
       throw error;
     }
   }
-  log.info(`API requests this run: ${requestsMade()}`);
+  log.info(`Scrydex API requests this run: ${requestsMade()}`);
 }
 
 async function main() {
   const command = process.argv[2];
   const gameArg = process.argv[3];
-  if (gameArg && !(gameArg in GAME_SLUGS)) {
-    throw new Error(`Unknown game "${gameArg}". Valid: ${Object.keys(GAME_SLUGS).join(', ')}`);
+  if (gameArg && !VALID_GAMES.includes(gameArg)) {
+    throw new Error(`Unknown game "${gameArg}". Valid: ${VALID_GAMES.join(', ')}`);
   }
-  const games = gameArg ? [gameArg] : env.scrydexGames;
+  const games = gameArg ? [gameArg] : env.syncGames;
 
   if (command === 'sync') {
     await syncGames(games);
   } else if (command === 'images') {
-    await mirrorMissingCardImages(gameArg ? GAME_SLUGS[gameArg] : undefined);
+    for (const game of games) {
+      await mirrorImagesFor(game);
+    }
   } else if (command === 'all') {
     // Per game: sync then images, so one slow game's card sync doesn't hold
     // every other game's images hostage.
     for (const game of games) {
       await syncGames([game]);
-      await mirrorMissingCardImages(GAME_SLUGS[game] ?? game);
+      await mirrorImagesFor(game);
     }
   } else if (command === 'usage') {
     console.log(await getUsage());

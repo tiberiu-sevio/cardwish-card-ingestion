@@ -21,17 +21,17 @@ export async function mirrorMissingCardImages(game?: string): Promise<{ done: nu
     const cards = await prisma.card.findMany({
       where: {
         ...(game ? { game } : {}),
-        scrydexId: { not: null },
+        sourceId: { not: null },
         OR: [{ imageSmallKey: null }, { imageLargeKey: null }],
       },
       select: {
         id: true,
         game: true,
-        scrydexId: true,
+        sourceId: true,
         imageSmallKey: true,
         imageLargeKey: true,
         payload: true,
-        expansion: { select: { scrydexId: true } },
+        expansion: { select: { sourceId: true } },
       },
       take: BATCH,
     });
@@ -47,7 +47,7 @@ export async function mirrorMissingCardImages(game?: string): Promise<{ done: nu
         await prisma.card.update({ where: { id: card.id }, data: { imageSmallKey: '', imageLargeKey: '' } });
         continue;
       }
-      const prefix = `cards/${card.game}/${card.expansion?.scrydexId ?? 'unknown'}/${card.scrydexId}`;
+      const prefix = `cards/${card.game}/${card.expansion?.sourceId ?? 'unknown'}/${card.sourceId}`;
       const sizes = [
         { column: 'imageSmallKey' as const, url: front.small ?? front.medium ?? front.large, suffix: 'small' },
         { column: 'imageLargeKey' as const, url: front.large ?? front.medium ?? front.small, suffix: 'large' },

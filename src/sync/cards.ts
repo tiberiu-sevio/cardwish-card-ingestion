@@ -60,7 +60,7 @@ export async function syncExpansionCards(scrydexGame: string, expansion: Expansi
   const game = GAME_SLUGS[scrydexGame] ?? scrydexGame;
   let seen = 0;
 
-  for await (const card of pagedItems<ScrydexCard>(`/${scrydexGame}/v1/expansions/${expansion.scrydexId}/cards`)) {
+  for await (const card of pagedItems<ScrydexCard>(`/${scrydexGame}/v1/expansions/${expansion.sourceId}/cards`)) {
     const front = frontImage(card.images);
     const data = {
       // English canonical name (see syncExpansions); the printed-language
@@ -77,8 +77,8 @@ export async function syncExpansionCards(scrydexGame: string, expansion: Expansi
       payload: trimPayload(card) as object,
     };
     await prisma.card.upsert({
-      where: { game_scrydexId: { game, scrydexId: card.id } },
-      create: { game, scrydexId: card.id, ...data },
+      where: { game_sourceId: { game, sourceId: card.id } },
+      create: { game, sourceId: card.id, ...data },
       update: data,
     });
     seen++;
@@ -89,6 +89,6 @@ export async function syncExpansionCards(scrydexGame: string, expansion: Expansi
     where: { id: expansion.id },
     data: { cardsSyncedAt: new Date(), syncedCardCount },
   });
-  log.info(`${game}/${expansion.scrydexId} "${expansion.name}": ${seen} cards (total ${expansion.total ?? '?'})`);
+  log.info(`${game}/${expansion.sourceId} "${expansion.name}": ${seen} cards (total ${expansion.total ?? '?'})`);
   return seen;
 }

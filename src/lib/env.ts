@@ -16,7 +16,12 @@ export const env = {
   databaseUrl: required('DATABASE_URL'),
   scrydexApiKey: required('SCRYDEX_API_KEY'),
   scrydexTeamId: required('SCRYDEX_TEAM_ID'),
-  scrydexGames: (process.env.SCRYDEX_GAMES ?? 'pokemon,lorcana,magicthegathering,gundam,onepiece,riftbound')
+  // Games to sync — Scrydex slugs plus 'yugioh' (YGOPRODeck-sourced).
+  syncGames: (
+    process.env.SYNC_GAMES ??
+    process.env.SCRYDEX_GAMES ??
+    'pokemon,lorcana,magicthegathering,gundam,onepiece,riftbound,yugioh'
+  )
     .split(',')
     .map((game) => game.trim())
     .filter(Boolean),

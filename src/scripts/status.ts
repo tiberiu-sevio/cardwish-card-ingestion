@@ -29,11 +29,11 @@ async function main() {
   }
 
   const runs = await prisma.ingestionRun.findMany({
-    where: { marketplace: 'scrydex' },
+    where: { marketplace: { in: ['scrydex', 'ygoprodeck'] } },
     orderBy: { startedAt: 'desc' },
     take: 8,
   });
-  console.log('\nlast scrydex runs:');
+  console.log('\nlast catalog runs:');
   for (const run of runs) {
     console.log(
       `  ${run.startedAt.toISOString()} ${run.jobType} ${run.status}` +
