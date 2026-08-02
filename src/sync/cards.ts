@@ -11,6 +11,21 @@ function frontImage(images: ScrydexImage[] | null | undefined): ScrydexImage | n
   return images.find((image) => (image.type ?? 'front') === 'front') ?? images[0];
 }
 
+/** The rare cards Scrydex leaves untranslated (no translation.en.name). */
+const NAME_OVERRIDES: Record<string, string> = {
+  'mp_ja-8': 'Mega Signal', // メガシグナル — JP promo without a translation entry
+};
+
+function englishName(card: ScrydexCard): string {
+  const override = NAME_OVERRIDES[card.id];
+  if (override) return override;
+  const raw = card.translation?.en?.name ?? card.name;
+  // Scrydex occasionally names a card "ナッシー[Exeggutor]" — Japanese with the
+  // English in brackets. Canonical name is the bracket content.
+  const bracket = raw.match(/^[^\x00-\x7F][^[]*\[(.+)\]$/);
+  return bracket ? bracket[1] : raw;
+}
+
 /**
  * Payload kept for future features (gameplay attributes, variant names), with
  * the bulky parts we already store elsewhere stripped: the nested expansion
@@ -50,7 +65,7 @@ export async function syncExpansionCards(scrydexGame: string, expansion: Expansi
     const data = {
       // English canonical name (see syncExpansions); the printed-language
       // original survives in payload.name.
-      name: card.translation?.en?.name ?? card.name,
+      name: englishName(card),
       setName: expansion.name,
       setCode: expansion.code,
       cardNumber: card.number ?? card.printed_number ?? null,
