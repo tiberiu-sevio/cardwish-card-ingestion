@@ -1,0 +1,89 @@
+// MIRROR SCHEMA — client generation only.
+//
+// The Cardwish database's migration history is owned by the cardwish-crawler
+// repo. This file mirrors just the models this service touches so `prisma
+// generate` works here. NEVER run `prisma migrate` from this repo: schema
+// changes go into cardwish-crawler (prisma/schema.prisma + a migration),
+// then get copied here.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Card {
+  id         String   @id @default(uuid())
+  game       String
+  setName    String?  @map("set_name")
+  setCode    String?  @map("set_code")
+  setSlug    String?  @map("set_slug")
+  cardNumber String?  @map("card_number")
+  name       String
+  slug       String?
+  language   String?
+  imageUrl   String?  @map("image_url")
+  // CDN image columns hold object KEYS relative to the CDN root, never
+  // absolute URLs — the bucket/CNAME will move.
+  scrydexId     String?  @map("scrydex_id")
+  expansionId   String?  @map("expansion_id")
+  rarity        String?
+  imageSmallKey String?  @map("image_small_key")
+  imageLargeKey String?  @map("image_large_key")
+  payload       Json?
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  expansion Expansion? @relation(fields: [expansionId], references: [id])
+
+  @@unique([game, language, setSlug, slug])
+  @@unique([game, scrydexId])
+  @@index([expansionId])
+  @@map("cards")
+}
+
+model Expansion {
+  id           String    @id @default(uuid())
+  game         String
+  scrydexId    String    @map("scrydex_id")
+  name         String
+  code         String?
+  series       String?
+  total        Int?
+  printedTotal Int?      @map("printed_total")
+  language     String?
+  languageCode String?   @map("language_code")
+  releaseDate  DateTime? @map("release_date")
+  isOnlineOnly Boolean   @default(false) @map("is_online_only")
+  logoKey      String?   @map("logo_key")
+  symbolKey    String?   @map("symbol_key")
+  cardsSyncedAt   DateTime? @map("cards_synced_at")
+  syncedCardCount Int       @default(0) @map("synced_card_count")
+  createdAt    DateTime  @default(now()) @map("created_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
+
+  cards Card[]
+
+  @@unique([game, scrydexId])
+  @@index([game, releaseDate])
+  @@map("expansions")
+}
+
+model IngestionRun {
+  id           String    @id @default(uuid())
+  marketplace  String
+  jobType      String    @map("job_type")
+  startedAt    DateTime  @map("started_at")
+  finishedAt   DateTime? @map("finished_at")
+  status       String
+  itemsSeen    Int       @default(0) @map("items_seen")
+  itemsCreated Int       @default(0) @map("items_created")
+  itemsUpdated Int       @default(0) @map("items_updated")
+  itemsFailed  Int       @default(0) @map("items_failed")
+  errorMessage String?   @map("error_message")
+  createdAt    DateTime  @default(now()) @map("created_at")
+
+  @@map("ingestion_runs")
+}

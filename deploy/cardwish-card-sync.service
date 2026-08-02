@@ -1,0 +1,11 @@
+[Unit]
+Description=Cardwish: daily Scrydex catalog sync + CDN image mirror
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=cardwish
+WorkingDirectory=/opt/cardwish-card-ingestion
+ExecStart=/usr/bin/npx tsx src/scripts/sync.ts all
+# The first backfill mirrors hundreds of thousands of images.
+TimeoutStartSec=12h
