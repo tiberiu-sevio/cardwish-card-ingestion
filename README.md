@@ -1,9 +1,15 @@
 # cardwish-card-ingestion
 
-Canonical card & expansion catalog for Cardwish, sourced from the
-[Scrydex API](https://scrydex.com/docs) (Pokémon, Lorcana, Magic, Gundam,
-One Piece, Riftbound), with card images mirrored to our own CDN
-(DO Spaces today; S3-compatible and swappable).
+Canonical card & expansion catalog for Cardwish, with card images mirrored
+to our own CDN (DO Spaces today; S3-compatible and swappable). Two sources:
+
+- [Scrydex API](https://scrydex.com/docs) — Pokémon, Lorcana, Magic, Gundam,
+  One Piece, Riftbound (credit-metered; `X-Api-Key` + `X-Team-ID`)
+- [YGOPRODeck API](https://ygoprodeck.com/api-guide/) — Yu-Gi-Oh (free, no
+  auth; cards stored one row per print, artwork-deduplicated image mirroring)
+
+Everything stored is English — non-English prints keep only their language
+code as metadata.
 
 ## How it works
 
