@@ -58,7 +58,8 @@ export interface ScrydexUsage {
 export const GAME_SLUGS: Record<string, string> = {
   pokemon: 'pokemon',
   lorcana: 'lorcana',
-  magic: 'magic',
+  // Scrydex's path slug for MTG is the long form; /magic/v1 404s.
+  magicthegathering: 'magic',
   gundam: 'gundam',
   onepiece: 'one-piece',
   riftbound: 'riftbound',

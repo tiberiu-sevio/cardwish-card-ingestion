@@ -16,7 +16,7 @@ export const env = {
   databaseUrl: required('DATABASE_URL'),
   scrydexApiKey: required('SCRYDEX_API_KEY'),
   scrydexTeamId: required('SCRYDEX_TEAM_ID'),
-  scrydexGames: (process.env.SCRYDEX_GAMES ?? 'pokemon,lorcana,magic,gundam,onepiece,riftbound')
+  scrydexGames: (process.env.SCRYDEX_GAMES ?? 'pokemon,lorcana,magicthegathering,gundam,onepiece,riftbound')
     .split(',')
     .map((game) => game.trim())
     .filter(Boolean),
