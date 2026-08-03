@@ -1,7 +1,9 @@
 import { extensionFromUrl, mirrorAll, mirrorImage } from '../cdn/spaces';
 import { createLogger } from '../lib/logger';
 import { prisma } from '../lib/prisma';
+import { cardSlug, slugify } from '../lib/slug';
 import { sleepWithJitter } from '../lib/sleep';
+import { upsertCard } from '../sync/upsert';
 import { fetchYgoSetCards, fetchYgoSets } from './client';
 import type { YgoCard, YgoSet } from './types';
 
@@ -130,24 +132,26 @@ export async function syncYugiohSet(set: YgoSet): Promise<{ runs: number; prints
       }
     }
 
+    // Runs share a product name, so the run code disambiguates the set slug:
+    // "legend-of-blue-eyes-white-dragon-lob-e".
+    const cardSetSlug = slugify(`${set.set_name} ${run}`);
     for (const print of prints) {
       const artwork = print.card.card_images?.[0] ?? null;
       const sourceId = `${expansionSourceId}/${print.cardId}-${print.setCode}`;
-      const cardData = {
+      await upsertCard(GAME, sourceId, {
         name: print.card.name,
         setName: set.set_name,
         setCode: run,
+        setSlug: cardSetSlug,
+        // The printed number is unique within a run, so it alone makes the
+        // card slug unique: "blue-eyes-white-dragon-lob-001".
+        slug: cardSlug(print.card.name, print.setCode),
         cardNumber: print.setCode,
         language: 'en',
         imageUrl: artwork?.image_url ?? null,
         expansionId: expansion.id,
         rarity: print.rarities[0] ?? null,
-        payload: buildPayload(print.card, print.rarities),
-      };
-      await prisma.card.upsert({
-        where: { game_sourceId: { game: GAME, sourceId } },
-        create: { game: GAME, sourceId, ...cardData },
-        update: cardData,
+        payload: buildPayload(print.card, print.rarities) as never,
       });
       printCount++;
     }

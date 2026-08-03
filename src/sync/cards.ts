@@ -1,6 +1,8 @@
-import type { Expansion } from '@prisma/client';
+import type { Expansion, Prisma } from '@prisma/client';
+import { upsertCard } from './upsert';
 import { createLogger } from '../lib/logger';
 import { prisma } from '../lib/prisma';
+import { cardSlug, slugify } from '../lib/slug';
 import { pagedItems } from '../scrydex/client';
 import { GAME_SLUGS, type ScrydexCard, type ScrydexImage } from '../scrydex/types';
 
@@ -60,27 +62,28 @@ export async function syncExpansionCards(scrydexGame: string, expansion: Expansi
   const game = GAME_SLUGS[scrydexGame] ?? scrydexGame;
   let seen = 0;
 
+  const setSlug = slugify(expansion.name);
   for await (const card of pagedItems<ScrydexCard>(`/${scrydexGame}/v1/expansions/${expansion.sourceId}/cards`)) {
     const front = frontImage(card.images);
+    const name = englishName(card);
+    const cardNumber = card.number ?? card.printed_number ?? null;
     const data = {
       // English canonical name (see syncExpansions); the printed-language
       // original survives in payload.name.
-      name: englishName(card),
+      name,
       setName: expansion.name,
       setCode: expansion.code,
-      cardNumber: card.number ?? card.printed_number ?? null,
+      setSlug,
+      slug: cardSlug(name, cardNumber),
+      cardNumber,
       language: card.language_code?.toLowerCase() ?? expansion.languageCode,
       imageUrl: front?.large ?? front?.medium ?? front?.small ?? null,
       expansionId: expansion.id,
       // English canonical rarity too — JP prints label rarity in Japanese.
       rarity: card.translation?.en?.rarity ?? card.rarity ?? null,
-      payload: trimPayload(card) as object,
+      payload: trimPayload(card) as Prisma.InputJsonValue,
     };
-    await prisma.card.upsert({
-      where: { game_sourceId: { game, sourceId: card.id } },
-      create: { game, sourceId: card.id, ...data },
-      update: data,
-    });
+    await upsertCard(game, card.id, data);
     seen++;
   }
 
