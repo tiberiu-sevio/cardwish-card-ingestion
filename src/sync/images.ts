@@ -47,7 +47,10 @@ export async function mirrorMissingCardImages(game?: string): Promise<{ done: nu
         await prisma.card.update({ where: { id: card.id }, data: { imageSmallKey: '', imageLargeKey: '' } });
         continue;
       }
-      const prefix = `cards/${card.game}/${card.expansion?.sourceId ?? 'unknown'}/${card.sourceId}`;
+      // Variant siblings ("id#variant") share the base print's artwork —
+      // one CDN object per artwork, referenced by every variant row.
+      const baseSourceId = card.sourceId!.split('#')[0];
+      const prefix = `cards/${card.game}/${card.expansion?.sourceId ?? 'unknown'}/${baseSourceId}`;
       const sizes = [
         { column: 'imageSmallKey' as const, url: front.small ?? front.medium ?? front.large, suffix: 'small' },
         { column: 'imageLargeKey' as const, url: front.large ?? front.medium ?? front.small, suffix: 'large' },

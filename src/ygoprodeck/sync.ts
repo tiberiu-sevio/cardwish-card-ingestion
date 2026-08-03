@@ -137,26 +137,37 @@ export async function syncYugiohSet(set: YgoSet): Promise<{ runs: number; prints
     const cardSetSlug = slugify(`${set.set_name} ${run}`);
     for (const print of prints) {
       const artwork = print.card.card_images?.[0] ?? null;
-      const sourceId = `${expansionSourceId}/${print.cardId}-${print.setCode}`;
-      await upsertCard(GAME, sourceId, {
-        name: print.card.name,
-        setName: set.set_name,
-        setCode: run,
-        setSlug: cardSetSlug,
-        // The printed number is unique within a run, so it alone makes the
-        // card slug unique: "blue-eyes-white-dragon-lob-001".
-        slug: cardSlug(print.card.name, print.setCode),
-        cardNumber: print.setCode,
-        language: 'en',
-        imageUrl: artwork?.image_url ?? null,
-        expansionId: expansion.id,
-        rarity: print.rarities[0] ?? null,
-        payload: buildPayload(print.card, print.rarities) as never,
-      });
+      const baseSourceId = `${expansionSourceId}/${print.cardId}-${print.setCode}`;
+      // Number within the run ("LOB-E001" -> "001") — the run is already in
+      // the set slug, so the card slug reads "001-blue-eyes-white-dragon".
+      const runNumber = print.setCode.slice(run.length).replace(/^-/, '') || print.setCode;
+      // A code printed in several rarities is one collectible per rarity —
+      // Yu-Gi-Oh's variant dimension. First listed is the base row.
+      const rarities: (string | null)[] = print.rarities.length ? print.rarities : [null];
+      for (const [index, rarity] of rarities.entries()) {
+        const suffix = index === 0 ? null : slugify(rarity ?? '');
+        await upsertCard(GAME, index === 0 ? baseSourceId : `${baseSourceId}#${slugify(rarity ?? '')}`, {
+          name: print.card.name,
+          setName: set.set_name,
+          setCode: run,
+          setSlug: cardSetSlug,
+          slug: cardSlug(print.card.name, runNumber, suffix),
+          cardNumber: print.setCode,
+          language: 'en',
+          imageUrl: artwork?.image_url ?? null,
+          expansionId: expansion.id,
+          rarity,
+          payload: buildPayload(print.card, print.rarities) as never,
+        });
+      }
       printCount++;
     }
 
-    const syncedCardCount = await prisma.card.count({ where: { expansionId: expansion.id } });
+    // Base rows only — rarity siblings would desync the count from the
+    // source's print total and re-trigger this set forever.
+    const syncedCardCount = await prisma.card.count({
+      where: { expansionId: expansion.id, NOT: { sourceId: { contains: '#' } } },
+    });
     await prisma.expansion.update({
       where: { id: expansion.id },
       data: { cardsSyncedAt: new Date(), syncedCardCount },

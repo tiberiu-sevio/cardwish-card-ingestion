@@ -2,7 +2,7 @@ import type { Expansion, Prisma } from '@prisma/client';
 import { upsertCard } from './upsert';
 import { createLogger } from '../lib/logger';
 import { prisma } from '../lib/prisma';
-import { cardSlug, slugify } from '../lib/slug';
+import { cardSlug, slugify, variantSlots } from '../lib/slug';
 import { pagedItems } from '../scrydex/client';
 import { GAME_SLUGS, type ScrydexCard, type ScrydexImage } from '../scrydex/types';
 
@@ -67,27 +67,41 @@ export async function syncExpansionCards(scrydexGame: string, expansion: Expansi
     const front = frontImage(card.images);
     const name = englishName(card);
     const cardNumber = card.number ?? card.printed_number ?? null;
-    const data = {
+    const common = {
       // English canonical name (see syncExpansions); the printed-language
       // original survives in payload.name.
       name,
       setName: expansion.name,
       setCode: expansion.code,
       setSlug,
-      slug: cardSlug(name, cardNumber),
       cardNumber,
       language: card.language_code?.toLowerCase() ?? expansion.languageCode,
       imageUrl: front?.large ?? front?.medium ?? front?.small ?? null,
       expansionId: expansion.id,
       // English canonical rarity too — JP prints label rarity in Japanese.
       rarity: card.translation?.en?.rarity ?? card.rarity ?? null,
-      payload: trimPayload(card) as Prisma.InputJsonValue,
     };
-    await upsertCard(game, card.id, data);
+    // One row per VARIANT: 1st Edition and Unlimited are different
+    // collectibles with different price histories, and slab labels state
+    // the edition. The base variant keeps the card's own sourceId (and an
+    // unsuffixed slug); siblings live at "{id}#{variantName}".
+    const variantNames = (card.variants ?? []).map((v) => v.name).filter((n): n is string => Boolean(n));
+    for (const slot of variantSlots(variantNames)) {
+      const sourceId = slot.suffix === null ? card.id : `${card.id}#${slot.name}`;
+      await upsertCard(game, sourceId, {
+        ...common,
+        slug: cardSlug(name, cardNumber, slot.suffix),
+        payload: { ...(trimPayload(card) as object), variant: slot.name || null } as Prisma.InputJsonValue,
+      });
+    }
     seen++;
   }
 
-  const syncedCardCount = await prisma.card.count({ where: { expansionId: expansion.id } });
+  // Base rows only — variant siblings would desync the count from the
+  // source's card total and re-trigger this expansion forever.
+  const syncedCardCount = await prisma.card.count({
+    where: { expansionId: expansion.id, NOT: { sourceId: { contains: '#' } } },
+  });
   await prisma.expansion.update({
     where: { id: expansion.id },
     data: { cardsSyncedAt: new Date(), syncedCardCount },
