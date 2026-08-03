@@ -12,20 +12,22 @@ export async function upsertCard(
   game: string,
   sourceId: string,
   data: Omit<Prisma.CardUncheckedCreateInput, 'game' | 'sourceId'>,
-): Promise<void> {
+): Promise<string> {
   try {
-    await prisma.card.upsert({
+    const card = await prisma.card.upsert({
       where: { game_sourceId: { game, sourceId } },
       create: { game, sourceId, ...data },
       update: data,
     });
+    return card.id;
   } catch (error) {
     if ((error as { code?: string })?.code !== 'P2002' || !data.slug) throw error;
     const suffixed = { ...data, slug: `${data.slug}-${slugify(sourceId)}` };
-    await prisma.card.upsert({
+    const card = await prisma.card.upsert({
       where: { game_sourceId: { game, sourceId } },
       create: { game, sourceId, ...suffixed },
       update: suffixed,
     });
+    return card.id;
   }
 }

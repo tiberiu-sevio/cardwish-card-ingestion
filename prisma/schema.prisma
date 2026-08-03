@@ -36,7 +36,8 @@ model Card {
   createdAt  DateTime @default(now()) @map("created_at")
   updatedAt  DateTime @updatedAt @map("updated_at")
 
-  expansion Expansion? @relation(fields: [expansionId], references: [id])
+  expansion   Expansion?       @relation(fields: [expansionId], references: [id])
+  variantTags CardVariantTag[]
 
   @@unique([game, language, setSlug, slug])
   @@unique([game, sourceId])
@@ -71,6 +72,30 @@ model Expansion {
   @@unique([game, sourceId])
   @@index([game, releaseDate])
   @@map("expansions")
+}
+
+model VariantTag {
+  id        String   @id @default(uuid())
+  slug      String   @unique
+  label     String
+  kind      String   @default("other")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  cards CardVariantTag[]
+
+  @@map("variant_tags")
+}
+
+model CardVariantTag {
+  cardId       String @map("card_id")
+  variantTagId String @map("variant_tag_id")
+
+  card       Card       @relation(fields: [cardId], references: [id], onDelete: Cascade)
+  variantTag VariantTag @relation(fields: [variantTagId], references: [id], onDelete: Cascade)
+
+  @@id([cardId, variantTagId])
+  @@index([variantTagId])
+  @@map("card_variant_tags")
 }
 
 model IngestionRun {

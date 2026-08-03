@@ -4,6 +4,7 @@ import { prisma } from '../lib/prisma';
 import { cardSlug, slugify } from '../lib/slug';
 import { sleepWithJitter } from '../lib/sleep';
 import { upsertCard } from '../sync/upsert';
+import { applyVariantTags } from '../sync/variant-tags';
 import { fetchYgoSetCards, fetchYgoSets } from './client';
 import type { YgoCard, YgoSet } from './types';
 
@@ -146,7 +147,7 @@ export async function syncYugiohSet(set: YgoSet): Promise<{ runs: number; prints
       const rarities: (string | null)[] = print.rarities.length ? print.rarities : [null];
       for (const [index, rarity] of rarities.entries()) {
         const suffix = index === 0 ? null : slugify(rarity ?? '');
-        await upsertCard(GAME, index === 0 ? baseSourceId : `${baseSourceId}#${slugify(rarity ?? '')}`, {
+        const cardId = await upsertCard(GAME, index === 0 ? baseSourceId : `${baseSourceId}#${slugify(rarity ?? '')}`, {
           name: print.card.name,
           setName: set.set_name,
           setCode: run,
@@ -159,6 +160,9 @@ export async function syncYugiohSet(set: YgoSet): Promise<{ runs: number; prints
           rarity,
           payload: buildPayload(print.card, print.rarities) as never,
         });
+        // Rarity siblings get atomic variant tags ("ultra-rare" etc.); the
+        // base row's rarity lives in the rarity column, not in tags.
+        if (suffix !== null) await applyVariantTags(cardId, suffix);
       }
       printCount++;
     }

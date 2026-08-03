@@ -3,6 +3,7 @@ import { upsertCard } from './upsert';
 import { createLogger } from '../lib/logger';
 import { prisma } from '../lib/prisma';
 import { cardSlug, slugify, variantSlots } from '../lib/slug';
+import { applyVariantTags } from './variant-tags';
 import { pagedItems } from '../scrydex/client';
 import { GAME_SLUGS, type ScrydexCard, type ScrydexImage } from '../scrydex/types';
 
@@ -88,11 +89,14 @@ export async function syncExpansionCards(scrydexGame: string, expansion: Expansi
     const variantNames = (card.variants ?? []).map((v) => v.name).filter((n): n is string => Boolean(n));
     for (const slot of variantSlots(variantNames)) {
       const sourceId = slot.suffix === null ? card.id : `${card.id}#${slot.name}`;
-      await upsertCard(game, sourceId, {
+      const cardId = await upsertCard(game, sourceId, {
         ...common,
         slug: cardSlug(name, cardNumber, slot.suffix),
         payload: { ...(trimPayload(card) as object), variant: slot.name || null } as Prisma.InputJsonValue,
       });
+      // Variant rows carry atomic tags decomposed from the raw variant name;
+      // the base printing is expressed by the absence of tags.
+      if (slot.suffix !== null) await applyVariantTags(cardId, slot.name);
     }
     seen++;
   }
