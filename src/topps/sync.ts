@@ -66,7 +66,7 @@ export async function syncToppsPokemon(): Promise<{ expansions: number; cards: n
         name: set.name,
         series: 'Topps',
         language: 'English',
-        languageCode: 'EN',
+        languageCode: 'en',
         totalCardCount: set.totalCardCount ?? set.cards.length,
         numberedCardCount: set.totalCardCount ?? set.cards.length,
         releaseDate,
