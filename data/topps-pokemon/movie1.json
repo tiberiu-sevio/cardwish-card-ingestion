@@ -1,0 +1,1094 @@
+{
+ "sourceId": "topps-pokemon-movie1",
+ "name": "Topps Pokemon The First Movie",
+ "year": 1999,
+ "releaseDate": "1999-11-01",
+ "cards": [
+  {
+   "number": "1",
+   "name": "Legends",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "2",
+   "name": "Awakenings",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "3",
+   "name": "Consciousness and Congratulations",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "4",
+   "name": "Leaving the Nest",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "5",
+   "name": "The Proposition",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "6",
+   "name": "Mechanical Mewtwo",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "7",
+   "name": "Trying Out the New Toy",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "8",
+   "name": "Rebellion",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "9",
+   "name": "Ash and Company",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "10",
+   "name": "Battle Before Lunch",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "11",
+   "name": "Donphan",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "12",
+   "name": "The Nefarious Team Rocket",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "13",
+   "name": "The Invitation",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "14",
+   "name": "Marina in Chaos",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "15",
+   "name": "The Tempest -- A Bad Omen",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "16",
+   "name": "A Call to Arms",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "17",
+   "name": "Underwater Adventure",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "18",
+   "name": "The Temple of Mewtwo",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "19",
+   "name": "The Stairwell",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "20",
+   "name": "The Best of the Best",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "21",
+   "name": "Introductions",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "22",
+   "name": "The Trainer's Failure",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "23",
+   "name": "Meowth Times Two",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "24",
+   "name": "The Story of Mewtwo",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "25",
+   "name": "The Battle of the Champions",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "26",
+   "name": "Round One Equals Defeat",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "27",
+   "name": "Stealing Pokémon",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "28",
+   "name": "The Chase for Pikachu",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "29",
+   "name": "Clones!!!",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "30",
+   "name": "Rescuing Pikachu",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "31",
+   "name": "Reunited!",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "32",
+   "name": "The Battle Renewed",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "33",
+   "name": "Psychic Showdown",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "34",
+   "name": "The Ultimate Match",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "35",
+   "name": "The Fight Rages",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "36",
+   "name": "Ash's Sacrifice",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "37",
+   "name": "The Tears of Pokémon",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "38",
+   "name": "The Rebirth of Ash",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "39",
+   "name": "Farewell",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "40",
+   "name": "Like It Never Happened",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "41",
+   "name": "The Future Looks Bright",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "42",
+   "name": "Pikachu's Vacation",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "43",
+   "name": "Don't Cry, Togepi!",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "44",
+   "name": "Looks Like Trouble...",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "45",
+   "name": "Togepi In Trouble",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "46",
+   "name": "Peacemaker Pikachu",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "47",
+   "name": "The Water Race Is On!",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "48",
+   "name": "Racing Cheek To Cheek",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "49",
+   "name": "Rest And Relaxation At Last",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "50",
+   "name": "The \"Tail\" End Of The Race",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "51",
+   "name": "Trapped Charizard",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "52",
+   "name": "Everyone... Pull!!!",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "53",
+   "name": "C'mon, We Need Help",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "54",
+   "name": "Teamwork",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "55",
+   "name": "Success",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "56",
+   "name": "Better Than Ever",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "57",
+   "name": "Playtime",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "58",
+   "name": "A Great Day",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "59",
+   "name": "New Friends And Farewells",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "E1",
+   "name": "Bulbasaur",
+   "subset": "evolution",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "E2",
+   "name": "Ivysaur",
+   "subset": "evolution",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "E3",
+   "name": "Venusaur",
+   "subset": "evolution",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "E4",
+   "name": "Charmander",
+   "subset": "evolution",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "E5",
+   "name": "Charmeleon",
+   "subset": "evolution",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "E6",
+   "name": "Charizard",
+   "subset": "evolution",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "E7",
+   "name": "Squirtle",
+   "subset": "evolution",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "E8",
+   "name": "Wartortle",
+   "subset": "evolution",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "E9",
+   "name": "Blastoise",
+   "subset": "evolution",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "E10",
+   "name": "Dratini",
+   "subset": "evolution",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "E11",
+   "name": "Dragonair",
+   "subset": "evolution",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "E12",
+   "name": "Dragonite",
+   "subset": "evolution",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "NNO",
+   "name": "Checklist",
+   "subset": "checklist",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "firstPrintSilverFoil",
+    "firstPrintRainbowFoil",
+    "secondPrintSilverFoil",
+    "secondPrintRainbowFoil"
+   ]
+  },
+  {
+   "number": "D1",
+   "name": "Bulbasaur",
+   "subset": "die-cut"
+  },
+  {
+   "number": "D2",
+   "name": "Ivysaur",
+   "subset": "die-cut"
+  },
+  {
+   "number": "D3",
+   "name": "Venusaur",
+   "subset": "die-cut"
+  },
+  {
+   "number": "D4",
+   "name": "Charmander",
+   "subset": "die-cut"
+  },
+  {
+   "number": "D5",
+   "name": "Charmeleon",
+   "subset": "die-cut"
+  },
+  {
+   "number": "D6",
+   "name": "Charizard",
+   "subset": "die-cut"
+  },
+  {
+   "number": "D7",
+   "name": "Squirtle",
+   "subset": "die-cut"
+  },
+  {
+   "number": "D8",
+   "name": "Wartortle",
+   "subset": "die-cut"
+  },
+  {
+   "number": "D9",
+   "name": "Blastoise",
+   "subset": "die-cut"
+  },
+  {
+   "number": "D10",
+   "name": "Dratini",
+   "subset": "die-cut"
+  },
+  {
+   "number": "D11",
+   "name": "Dragonair",
+   "subset": "die-cut"
+  },
+  {
+   "number": "D12",
+   "name": "Dragonite",
+   "subset": "die-cut"
+  },
+  {
+   "number": "0",
+   "name": "Super Psychic Pokémon",
+   "subset": "promo"
+  }
+ ]
+}

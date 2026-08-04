@@ -1,0 +1,710 @@
+{
+ "sourceId": "topps-pokemon-chrome1",
+ "name": "Topps Chrome Pokemon Series 1",
+ "year": 2000,
+ "releaseDate": "2000-06-01",
+ "cards": [
+  {
+   "number": "1",
+   "name": "Bulbasaur",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "2",
+   "name": "Ivysaur",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "3",
+   "name": "Venusaur",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "4",
+   "name": "Charmander",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "5",
+   "name": "Charmeleon",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "6",
+   "name": "Charizard",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "7",
+   "name": "Squirtle",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "8",
+   "name": "Wartortle",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "9",
+   "name": "Blastoise",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "10",
+   "name": "Caterpie",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "11",
+   "name": "Metapod",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "12",
+   "name": "Butterfree",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "13",
+   "name": "Weedle",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "14",
+   "name": "Kakuna",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "15",
+   "name": "Beedrill",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "16",
+   "name": "Pidgey",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "17",
+   "name": "Pidgeotto",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "18",
+   "name": "Pidgeot",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "19",
+   "name": "Rattata",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "20",
+   "name": "Raticate",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "21",
+   "name": "Spearow",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "22",
+   "name": "Fearow",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "23",
+   "name": "Ekans",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "24",
+   "name": "Arbok",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "25",
+   "name": "Pikachu",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "26",
+   "name": "Raichu",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "27",
+   "name": "Sandshrew",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "28",
+   "name": "Sandslash",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "29",
+   "name": "Nidoran♀",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "30",
+   "name": "Nidorina",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "31",
+   "name": "Nidoqueen",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "32",
+   "name": "Nidoran♂",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "33",
+   "name": "Nidorino",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "34",
+   "name": "Nidoking",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "35",
+   "name": "Clefairy",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "36",
+   "name": "Clefable",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "37",
+   "name": "Vulpix",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "38",
+   "name": "Ninetales",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "39",
+   "name": "Jigglypuff",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "40",
+   "name": "Wigglytuff",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "41",
+   "name": "Zubat",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "42",
+   "name": "Golbat",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "43",
+   "name": "Oddish",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "44",
+   "name": "Gloom",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "45",
+   "name": "Vileplume",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "46",
+   "name": "Paras",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "47",
+   "name": "Parasect",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "48",
+   "name": "Venonat",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "49",
+   "name": "Venomoth",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "50",
+   "name": "Diglett",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "51",
+   "name": "Dugtrio",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "52",
+   "name": "Meowth",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "53",
+   "name": "Persian",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "54",
+   "name": "Psyduck",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "55",
+   "name": "Golduck",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "56",
+   "name": "Mankey",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "57",
+   "name": "Primeape",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "58",
+   "name": "Growlithe",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "59",
+   "name": "Arcanine",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "60",
+   "name": "Poliwag",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "61",
+   "name": "Poliwhirl",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "62",
+   "name": "Poliwrath",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "63",
+   "name": "Abra",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "64",
+   "name": "Kadabra",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "65",
+   "name": "Alakazam",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "66",
+   "name": "Machop",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "67",
+   "name": "Machoke",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "68",
+   "name": "Machamp",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "69",
+   "name": "Bellsprout",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "70",
+   "name": "Weepinbell",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "71",
+   "name": "Victreebel",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "72",
+   "name": "Tentacool",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "73",
+   "name": "Tentacruel",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "74",
+   "name": "Geodude",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "75",
+   "name": "Graveler",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "76",
+   "name": "Golem",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "77",
+   "name": "Ponyta",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  },
+  {
+   "number": "78",
+   "name": "Rapidash",
+   "variants": [
+    "spectra",
+    "sparkle",
+    "tekno"
+   ]
+  }
+ ]
+}

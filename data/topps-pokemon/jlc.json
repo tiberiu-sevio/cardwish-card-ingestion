@@ -1,0 +1,407 @@
+{
+ "sourceId": "topps-pokemon-jlc",
+ "name": "Topps Pokemon Johto League Champions",
+ "year": 2001,
+ "releaseDate": "2001-11-01",
+ "cards": [
+  {
+   "number": "169",
+   "name": "Crobat",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "172",
+   "name": "Pichu",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "173",
+   "name": "Cleffa",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "174",
+   "name": "Igglybuff",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "186",
+   "name": "Politoed",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "196",
+   "name": "Espeon",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "197",
+   "name": "Umbreon",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "199",
+   "name": "Slowking",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "200",
+   "name": "Misdreavus",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "201",
+   "name": "Unown",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "205",
+   "name": "Forretress",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "206",
+   "name": "Dunsparce",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "211",
+   "name": "Qwilfish",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "212",
+   "name": "Scizor",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "215",
+   "name": "Sneasel",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "218",
+   "name": "Slugma",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "219",
+   "name": "Magcargo",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "222",
+   "name": "Corsola",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "223",
+   "name": "Remoraid",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "224",
+   "name": "Octillery",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "225",
+   "name": "Delibird",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "227",
+   "name": "Skarmory",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "228",
+   "name": "Houndour",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "229",
+   "name": "Houndoom",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "230",
+   "name": "Kingdra",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "233",
+   "name": "Porygon2",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "236",
+   "name": "Tyrogue",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "237",
+   "name": "Hitmontop",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "238",
+   "name": "Smoochum",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "240",
+   "name": "Magby",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "243",
+   "name": "Raikou",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "244",
+   "name": "Entei",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "245",
+   "name": "Suicune",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "246",
+   "name": "Larvitar",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "247",
+   "name": "Pupitar",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "248",
+   "name": "Tyranitar",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "250",
+   "name": "Ho-Oh",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "01",
+   "name": "Got Miltank?",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "02",
+   "name": "Electric Victory!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "03",
+   "name": "Brave Prince Ash!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "04",
+   "name": "Home Run Pokémon!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "05",
+   "name": "Hold On Brock!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "06",
+   "name": "Fossil Friends",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "07",
+   "name": "The Messenger Pidgey",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "08",
+   "name": "Zubat Times Two!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "09",
+   "name": "Chigusa's Hitmontop",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "10",
+   "name": "Jungle Hijinks!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "11",
+   "name": "The Fishing Battle",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "12",
+   "name": "The Most Beautiful Pokémon!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "NNO",
+   "name": "Checklist",
+   "variants": [
+    "silverFoil"
+   ]
+  }
+ ]
+}

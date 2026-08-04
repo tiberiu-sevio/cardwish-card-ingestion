@@ -1,5 +1,3 @@
-// MIRROR of cardwish-crawler/src/matching/variant-vocab.ts — edit there first,
-// then copy here (same convention as the Prisma mirror schema).
 /**
  * Canonical variant-tag vocabulary and the decomposition engine that turns a
  * raw variant name (the "#suffix" on cards.source_id — Scrydex camelCase or
@@ -64,6 +62,13 @@ export const TAGS: Record<string, { label: string; kind: VariantKind }> = {
   'blue-back': { label: 'Blue Back (Topsun)', kind: 'edition' },
   'red-cheeks': { label: 'Red Cheeks', kind: 'edition' },
   'edition-beta': { label: 'Edition Beta (Ver.β)', kind: 'edition' },
+  // Topps Pokemon print runs (TV Animation S1: 1st=blue/2nd=black/3rd=green/
+  // 4th=red Topps logo; First Movie: 1st=blue, 2nd=black). Edition-kind:
+  // grading labels state the printing and prices differ run to run.
+  'first-print': { label: '1st Print', kind: 'edition' },
+  'second-print': { label: '2nd Print', kind: 'edition' },
+  'third-print': { label: '3rd Print', kind: 'edition' },
+  'fourth-print': { label: '4th Print', kind: 'edition' },
   // --- Finishes ---
   foil: { label: 'Foil', kind: 'finish' },
   nonfoil: { label: 'Nonfoil', kind: 'finish' },
@@ -74,6 +79,11 @@ export const TAGS: Record<string, { label: string; kind: VariantKind }> = {
   'textured-foil': { label: 'Textured Foil', kind: 'finish' },
   'non-textured': { label: 'Non-Textured', kind: 'finish' },
   'jolly-roger-foil': { label: 'Jolly Roger Foil', kind: 'finish' },
+  // Topps Pokemon foils / formats
+  'silver-foil': { label: 'Silver Foil', kind: 'finish' },
+  'rainbow-foil': { label: 'Rainbow Foil', kind: 'finish' },
+  'die-cut': { label: 'Die-Cut', kind: 'finish' },
+  sticker: { label: 'Sticker', kind: 'finish' },
   // --- Holofoil patterns (which foil, not whether foil) ---
   'cosmos-holofoil': { label: 'Cosmos ("Galaxy") Holofoil', kind: 'pattern' },
   'cosmos-reverse-holofoil': { label: 'Cosmos Reverse Holofoil', kind: 'pattern' },
@@ -87,6 +97,12 @@ export const TAGS: Record<string, { label: string; kind: VariantKind }> = {
   'mirror-reverse-holofoil': { label: 'Mirror Reverse Holofoil', kind: 'pattern' },
   'meadow-pink-holofoil': { label: 'Meadow Pink Holofoil', kind: 'pattern' },
   'meadow-pink-reverse-holofoil': { label: 'Meadow Pink Reverse Holofoil', kind: 'pattern' },
+  // Topps Chrome Pokemon parallels (2000, Series 1+2): three chromium
+  // patterns, no plain "Refractor" exists in this product (sellers mislabel
+  // Spectra as Refractor).
+  spectra: { label: 'Spectra-Chrome (Topps)', kind: 'pattern' },
+  sparkle: { label: 'Sparkle-Chrome (Topps)', kind: 'pattern' },
+  tekno: { label: 'Tekno-Chrome (Topps)', kind: 'pattern' },
   // Topsun prism foils
   'prism-holofoil': { label: 'Prism Holofoil (Topsun)', kind: 'pattern' },
   'checkered-prism-holofoil': { label: 'Checkered Prism Holofoil (Topsun)', kind: 'pattern' },
@@ -225,6 +241,18 @@ const TOKEN_ENTRIES: { words: string[]; tags: string[] }[] = [
   { words: ['first', 'edition'], tags: ['1st-edition'] },
   { words: ['unlimited'], tags: ['unlimited'] },
   { words: ['shadowless'], tags: ['shadowless'] },
+  // Topps Pokemon print runs, foils and Chrome parallels
+  { words: ['first', 'print'], tags: ['first-print'] },
+  { words: ['second', 'print'], tags: ['second-print'] },
+  { words: ['third', 'print'], tags: ['third-print'] },
+  { words: ['fourth', 'print'], tags: ['fourth-print'] },
+  { words: ['silver', 'foil'], tags: ['silver-foil'] },
+  { words: ['rainbow', 'foil'], tags: ['rainbow-foil'] },
+  { words: ['die', 'cut'], tags: ['die-cut'] },
+  { words: ['sticker'], tags: ['sticker'] },
+  { words: ['spectra'], tags: ['spectra'] },
+  { words: ['sparkle'], tags: ['sparkle'] },
+  { words: ['tekno'], tags: ['tekno'] },
   { words: ['no', 'rarity', 'symbol'], tags: ['no-rarity'] },
   { words: ['green', 'back'], tags: ['green-back'] },
   { words: ['blue', 'back'], tags: ['blue-back'] },

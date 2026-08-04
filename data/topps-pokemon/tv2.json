@@ -1,0 +1,750 @@
+{
+ "sourceId": "topps-pokemon-tv2",
+ "name": "Topps Pokemon TV Animation Series 2",
+ "year": 2000,
+ "releaseDate": "2000-06-01",
+ "cards": [
+  {
+   "number": "77",
+   "name": "Ponyta",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "78",
+   "name": "Rapidash",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "79",
+   "name": "Slowpoke",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "80",
+   "name": "Slowbro",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "81",
+   "name": "Magnemite",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "82",
+   "name": "Magneton",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "83",
+   "name": "Farfetch'd",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "84",
+   "name": "Doduo",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "85",
+   "name": "Dodrio",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "86",
+   "name": "Seel",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "87",
+   "name": "Dewgong",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "88",
+   "name": "Grimer",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "89",
+   "name": "Muk",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "90",
+   "name": "Shellder",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "91",
+   "name": "Cloyster",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "92",
+   "name": "Gastly",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "93",
+   "name": "Haunter",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "94",
+   "name": "Gengar",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "95",
+   "name": "Onix",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "96",
+   "name": "Drowzee",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "97",
+   "name": "Hypno",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "98",
+   "name": "Krabby",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "99",
+   "name": "Kingler",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "100",
+   "name": "Voltorb",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "101",
+   "name": "Electrode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "102",
+   "name": "Exeggcute",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "103",
+   "name": "Exeggutor",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "104",
+   "name": "Cubone",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "105",
+   "name": "Marowak",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "106",
+   "name": "Hitmonlee",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "107",
+   "name": "Hitmonchan",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "108",
+   "name": "Lickitung",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "109",
+   "name": "Koffing",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "110",
+   "name": "Weezing",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "111",
+   "name": "Rhyhorn",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "112",
+   "name": "Rhydon",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "113",
+   "name": "Chansey",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "114",
+   "name": "Tangela",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "115",
+   "name": "Kangaskhan",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "116",
+   "name": "Horsea",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "117",
+   "name": "Seadra",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV1",
+   "name": "Ash Ketchum",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV2",
+   "name": "Team Rocket: Jesse",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV3",
+   "name": "Todd",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV4",
+   "name": "Team Rocket: James",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV5",
+   "name": "Team Rocket: Cassidy",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP1",
+   "name": "Pokémon - I Choose You!",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP2",
+   "name": "Pokémon Emergency",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP3",
+   "name": "Ash Catches a Pokémon",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP4",
+   "name": "Challenge of the Samurai",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP5",
+   "name": "Showdown in Pewter City",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP6",
+   "name": "Clefairy and the Moon Stone",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP7",
+   "name": "The Water Flowers of Cerulean City",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP8",
+   "name": "The Path to the Pokémon League",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP9",
+   "name": "The School of Hard Knocks",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP10",
+   "name": "Bulbasaur and the Hidden Village",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP11",
+   "name": "Charmander - The Stray Pokémon",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP12",
+   "name": "Here Comes the Squirtle Squad",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP13",
+   "name": "Mystery at the Lighthouse",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP14",
+   "name": "Electric Shock Showdown",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP15",
+   "name": "Battle Aboard the St. Anne",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP16",
+   "name": "Pokémon Shipwreck",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP17",
+   "name": "Island of the Giant Pokémon",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP18",
+   "name": "Tentacool and Tentacruel",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP19",
+   "name": "The Ghost of Maiden Peak",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP20",
+   "name": "Bye, Bye Butterfree",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP21",
+   "name": "Abra and the Psychic Showdown",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP22",
+   "name": "The Tower of Terror",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP23",
+   "name": "Haunter vs. Kadabra",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP24",
+   "name": "Primeape Goes Bananas",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EP25",
+   "name": "Pokémon Scent-Sation",
+   "subset": "episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "NNO",
+   "name": "Checklist",
+   "subset": "checklist",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EV1",
+   "name": "Caterpie",
+   "subset": "evolution"
+  },
+  {
+   "number": "EV2",
+   "name": "Metapod",
+   "subset": "evolution"
+  },
+  {
+   "number": "EV3",
+   "name": "Butterfree",
+   "subset": "evolution"
+  },
+  {
+   "number": "EV4",
+   "name": "Oddish",
+   "subset": "evolution"
+  },
+  {
+   "number": "EV5",
+   "name": "Gloom",
+   "subset": "evolution"
+  },
+  {
+   "number": "EV6",
+   "name": "Vileplume",
+   "subset": "evolution"
+  },
+  {
+   "number": "EV7",
+   "name": "Abra",
+   "subset": "evolution"
+  },
+  {
+   "number": "EV8",
+   "name": "Kadabra",
+   "subset": "evolution"
+  },
+  {
+   "number": "EV9",
+   "name": "Alakazam",
+   "subset": "evolution"
+  },
+  {
+   "number": "EV10",
+   "name": "Pidgey",
+   "subset": "evolution"
+  },
+  {
+   "number": "EV11",
+   "name": "Pidgeotto",
+   "subset": "evolution"
+  },
+  {
+   "number": "EV12",
+   "name": "Pidgeot",
+   "subset": "evolution"
+  },
+  {
+   "number": "1",
+   "name": "Wartortle",
+   "subset": "stick-on"
+  },
+  {
+   "number": "2",
+   "name": "Nidoking",
+   "subset": "stick-on"
+  },
+  {
+   "number": "3",
+   "name": "Poliwhirl",
+   "subset": "stick-on"
+  },
+  {
+   "number": "4",
+   "name": "Arbok",
+   "subset": "stick-on"
+  },
+  {
+   "number": "5",
+   "name": "Ditto",
+   "subset": "stick-on"
+  },
+  {
+   "number": "6",
+   "name": "Jigglypuff",
+   "subset": "stick-on"
+  },
+  {
+   "number": "7",
+   "name": "Geodude",
+   "subset": "stick-on"
+  },
+  {
+   "number": "8",
+   "name": "Pikachu",
+   "subset": "stick-on"
+  },
+  {
+   "number": "9",
+   "name": "Rattata",
+   "subset": "stick-on"
+  },
+  {
+   "number": "10",
+   "name": "Charmander",
+   "subset": "stick-on"
+  },
+  {
+   "number": "PC1",
+   "name": "Pikachu",
+   "subset": "clear"
+  },
+  {
+   "number": "PC2",
+   "name": "Bulbasaur",
+   "subset": "clear"
+  },
+  {
+   "number": "PC3",
+   "name": "Charizard",
+   "subset": "clear"
+  },
+  {
+   "number": "PC4",
+   "name": "Squirtle",
+   "subset": "clear"
+  },
+  {
+   "number": "PC5",
+   "name": "Mewtwo",
+   "subset": "clear"
+  }
+ ]
+}

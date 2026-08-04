@@ -1,0 +1,646 @@
+{
+ "sourceId": "topps-pokemon-advanced",
+ "name": "Topps Pokemon Advanced",
+ "year": 2003,
+ "releaseDate": "2003-05-01",
+ "cards": [
+  {
+   "number": "1",
+   "name": "Ash",
+   "subset": "Character",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "2",
+   "name": "Team Aqua",
+   "subset": "Character",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "3",
+   "name": "Prof. Birch",
+   "subset": "Character",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "4",
+   "name": "Brock",
+   "subset": "Character",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "5",
+   "name": "Team Rocket",
+   "subset": "Character",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "6",
+   "name": "Team Magma",
+   "subset": "Character",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "7",
+   "name": "May",
+   "subset": "Character",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "8",
+   "name": "Max",
+   "subset": "Character",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "9",
+   "name": "Absol",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "10",
+   "name": "Aggron",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "11",
+   "name": "Altaria",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "12",
+   "name": "Anorith",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "13",
+   "name": "Armaldo",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "14",
+   "name": "Aron",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "15",
+   "name": "Azurill",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "16",
+   "name": "Bagon",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "17",
+   "name": "Banette",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "18",
+   "name": "Beautifly",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "19",
+   "name": "Blaziken",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "20",
+   "name": "Cacnea",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "21",
+   "name": "Cacturne",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "22",
+   "name": "Camerupt",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "23",
+   "name": "Carvanha",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "24",
+   "name": "Castform",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "25",
+   "name": "Combusken",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "26",
+   "name": "Corphish",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "27",
+   "name": "Cradily",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "28",
+   "name": "Crawdaunt",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "29",
+   "name": "Delcatty",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "30",
+   "name": "Duskull",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "31",
+   "name": "Dustox",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "32",
+   "name": "Exploud",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "33",
+   "name": "Feebas",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "34",
+   "name": "Gardevoir",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "35",
+   "name": "Glalie",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "36",
+   "name": "Groudon",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "37",
+   "name": "Grovyle",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "38",
+   "name": "Grumpig",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "39",
+   "name": "Hariyama",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "40",
+   "name": "Illumise",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "41",
+   "name": "Kecleon",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "42",
+   "name": "Kirlia",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "43",
+   "name": "Kyogre",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "44",
+   "name": "Lairon",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "45",
+   "name": "Latias",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "46",
+   "name": "Latios",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "47",
+   "name": "Lileep",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "48",
+   "name": "Linoone",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "49",
+   "name": "Lotad",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "50",
+   "name": "Loudred",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "51",
+   "name": "Ludicolo",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "52",
+   "name": "Makuhita",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "53",
+   "name": "Marshtomp",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "54",
+   "name": "Masquerain",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "55",
+   "name": "Medicham",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "56",
+   "name": "Meditite",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "57",
+   "name": "Minun",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "58",
+   "name": "Mudkip",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "59",
+   "name": "Nosepass",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "60",
+   "name": "Numel",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "61",
+   "name": "Nuzleaf",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "62",
+   "name": "Pelipper",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "63",
+   "name": "Plusle",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "64",
+   "name": "Poochyena",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "65",
+   "name": "Ralts",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "66",
+   "name": "Roselia",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "67",
+   "name": "Sableye",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "68",
+   "name": "Salamence",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "69",
+   "name": "Sceptile",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "70",
+   "name": "Sealeo",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "71",
+   "name": "Seedot",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "72",
+   "name": "Seviper",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "73",
+   "name": "Sharpedo",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "74",
+   "name": "Shiftry",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "75",
+   "name": "Shroomish",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "76",
+   "name": "Skitty",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "77",
+   "name": "Slakoth",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "78",
+   "name": "Spinda",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "79",
+   "name": "Spoink",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "80",
+   "name": "Swampert",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "81",
+   "name": "Taillow",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "82",
+   "name": "Torchic",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "83",
+   "name": "Trapinch",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "84",
+   "name": "Treecko",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "85",
+   "name": "Vigoroth",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "86",
+   "name": "Volbeat",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "87",
+   "name": "Whiscash",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "88",
+   "name": "Wynaut",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "89",
+   "name": "Zigzagoon",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "90",
+   "name": "Checklist",
+   "variants": [
+    "foil"
+   ]
+  }
+ ]
+}

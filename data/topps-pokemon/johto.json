@@ -1,0 +1,802 @@
+{
+ "sourceId": "topps-pokemon-johto",
+ "name": "Topps Pokemon Johto",
+ "year": 2001,
+ "releaseDate": "2001-02-01",
+ "cards": [
+  {
+   "number": "152",
+   "name": "Chikorita",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "153",
+   "name": "Bayleef",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "154",
+   "name": "Meganium",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "155",
+   "name": "Cyndaquil",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "156",
+   "name": "Quilava",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "157",
+   "name": "Typhlosion",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "158",
+   "name": "Totodile",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "159",
+   "name": "Croconaw",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "160",
+   "name": "Feraligatr",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "161",
+   "name": "Sentret",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "162",
+   "name": "Furret",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "163",
+   "name": "Hoothoot",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "164",
+   "name": "Noctowl",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "165",
+   "name": "Ledyba",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "166",
+   "name": "Ledian",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "167",
+   "name": "Spinarak",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "168",
+   "name": "Ariados",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "170",
+   "name": "Chinchou",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "171",
+   "name": "Lanturn",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "175",
+   "name": "Togepi",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "176",
+   "name": "Togetic",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "177",
+   "name": "Natu",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "178",
+   "name": "Xatu",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "179",
+   "name": "Mareep",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "180",
+   "name": "Flaaffy",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "181",
+   "name": "Ampharos",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "182",
+   "name": "Bellossom",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "183",
+   "name": "Marill",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "184",
+   "name": "Azumarill",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "185",
+   "name": "Sudowoodo",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "187",
+   "name": "Hoppip",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "188",
+   "name": "Skiploom",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "189",
+   "name": "Jumpluff",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "190",
+   "name": "Aipom",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "191",
+   "name": "Sunkern",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "192",
+   "name": "Sunflora",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "193",
+   "name": "Yanma",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "194",
+   "name": "Wooper",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "195",
+   "name": "Quagsire",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "198",
+   "name": "Murkrow",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "202",
+   "name": "Wobbuffet",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "203",
+   "name": "Girafarig",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "204",
+   "name": "Pineco",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "207",
+   "name": "Gligar",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "208",
+   "name": "Steelix",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "209",
+   "name": "Snubbull",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "210",
+   "name": "Granbull",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "213",
+   "name": "Shuckle",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "214",
+   "name": "Heracross",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "216",
+   "name": "Teddiursa",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "217",
+   "name": "Ursaring",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "220",
+   "name": "Swinub",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "221",
+   "name": "Piloswine",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "226",
+   "name": "Mantine",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "231",
+   "name": "Phanpy",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "232",
+   "name": "Donphan",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "234",
+   "name": "Stantler",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "235",
+   "name": "Smeargle",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "239",
+   "name": "Elekid",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "241",
+   "name": "Miltank",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "242",
+   "name": "Blissey",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "249",
+   "name": "Lugia",
+   "variants": [
+    "silverFoil",
+    "sticker"
+   ]
+  },
+  {
+   "number": "01",
+   "name": "The Lovable Totodile",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "02",
+   "name": "Old Friends and New",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "03",
+   "name": "Cute and Snuggly",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "04",
+   "name": "Chikorita Challenge!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "05",
+   "name": "Unstoppable Team!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "06",
+   "name": "Heracross vs. Pinsir!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "07",
+   "name": "Heracross vs. Mecha Pinsir!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "08",
+   "name": "Is It a Donphan?",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "09",
+   "name": "The Donphan Herd",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "10",
+   "name": "Hoothoot Hide and Seek",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "11",
+   "name": "Hoothoot Saves the Day",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "12",
+   "name": "Joint Bellossom Attack!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "13",
+   "name": "Guest Dancer: Pikachu!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "14",
+   "name": "Hello Spinarak!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "15",
+   "name": "Spinning a Web for Thieves",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "16",
+   "name": "Snubbull Trouble",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "17",
+   "name": "Ferocious Fighter",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "18",
+   "name": "Stantler Stampede!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "19",
+   "name": "Stantler Rescue!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "20",
+   "name": "Quagsire Sighting!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "21",
+   "name": "Captured Quagsire!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "22",
+   "name": "Ledyba Times Six!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "23",
+   "name": "Ledyba Capture!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "24",
+   "name": "Fighting Mad Ledyba!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "25",
+   "name": "Nurse Blissey!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "26",
+   "name": "Doctor's Examination",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "27",
+   "name": "Blissey Surprise!",
+   "subset": "Snap",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "NNO",
+   "name": "Checklist",
+   "variants": [
+    "silverFoil"
+   ]
+  },
+  {
+   "number": "D1",
+   "name": "Chikorita",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D2",
+   "name": "Bayleef",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D3",
+   "name": "Meganium",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D4",
+   "name": "Cyndaquil",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D5",
+   "name": "Quilava",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D6",
+   "name": "Typhlosion",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D7",
+   "name": "Totodile",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D8",
+   "name": "Croconaw",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D9",
+   "name": "Feraligatr",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D10",
+   "name": "Mareep",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D11",
+   "name": "Flaaffy",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D12",
+   "name": "Ampharos",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D13",
+   "name": "Hoppip",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D14",
+   "name": "Skiploom",
+   "subset": "Die-Cut Embossed"
+  },
+  {
+   "number": "D15",
+   "name": "Jumpluff",
+   "subset": "Die-Cut Embossed"
+  }
+ ]
+}

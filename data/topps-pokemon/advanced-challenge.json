@@ -1,0 +1,778 @@
+{
+ "sourceId": "topps-pokemon-advanced-challenge",
+ "name": "Topps Pokemon Advanced Challenge",
+ "year": 2004,
+ "releaseDate": "2004-06-01",
+ "cards": [
+  {
+   "number": "1",
+   "name": "Absol",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "2",
+   "name": "Alakazam",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "3",
+   "name": "Bagon",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "4",
+   "name": "Baltoy",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "5",
+   "name": "Barboach",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "6",
+   "name": "Beautifly",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "7",
+   "name": "Beldum",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "8",
+   "name": "Blastoise",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "9",
+   "name": "Blaziken",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "10",
+   "name": "Breloom",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "11",
+   "name": "Bulbasaur",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "12",
+   "name": "Cascoon",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "13",
+   "name": "Castform (Fire)",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "14",
+   "name": "Castform (Ice)",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "15",
+   "name": "Castform (Water)",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "16",
+   "name": "Charizard",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "17",
+   "name": "Charmander",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "18",
+   "name": "Chimecho",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "19",
+   "name": "Clamperl",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "20",
+   "name": "Claydol",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "21",
+   "name": "Combusken",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "22",
+   "name": "Corphish",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "23",
+   "name": "Donphan",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "24",
+   "name": "Dusclops",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "25",
+   "name": "Dustox",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "26",
+   "name": "Electrike",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "27",
+   "name": "Electrode",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "28",
+   "name": "Flygon",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "29",
+   "name": "Girafarig",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "30",
+   "name": "Golbat",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "31",
+   "name": "Golduck",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "32",
+   "name": "Gorebyss",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "33",
+   "name": "Groudon",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "34",
+   "name": "Grovyle",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "35",
+   "name": "Gulpin",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "36",
+   "name": "Huntail",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "37",
+   "name": "Kyogre",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "38",
+   "name": "Lombre",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "39",
+   "name": "Lotad",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "40",
+   "name": "Lunatone",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "41",
+   "name": "Luvdisc",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "42",
+   "name": "Manectric",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "43",
+   "name": "Marshtomp",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "44",
+   "name": "Mawile",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "45",
+   "name": "Metagross",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "46",
+   "name": "Metang",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "47",
+   "name": "Mightyena",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "48",
+   "name": "Milotic",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "49",
+   "name": "Mudkip",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "50",
+   "name": "Nincada",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "51",
+   "name": "Ninjask",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "52",
+   "name": "Oddish",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "53",
+   "name": "Pikachu",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "54",
+   "name": "Rayquaza",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "55",
+   "name": "Regice",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "56",
+   "name": "Regirock",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "57",
+   "name": "Registeel",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "58",
+   "name": "Relicanth",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "59",
+   "name": "Salamence",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "60",
+   "name": "Sceptile",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "61",
+   "name": "Seviper",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "62",
+   "name": "Shedinja",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "63",
+   "name": "Shelgon",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "64",
+   "name": "Shuppet",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "65",
+   "name": "Silcoon",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "66",
+   "name": "Slaking",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "67",
+   "name": "Snorunt",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "68",
+   "name": "Solrock",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "69",
+   "name": "Spheal",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "70",
+   "name": "Squirtle",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "71",
+   "name": "Surskit",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "72",
+   "name": "Swablu",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "73",
+   "name": "Swalot",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "74",
+   "name": "Swampert",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "75",
+   "name": "Swellow",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "76",
+   "name": "Taillow",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "77",
+   "name": "Torchic",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "78",
+   "name": "Torkoal",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "79",
+   "name": "Treecko",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "80",
+   "name": "Tropius",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "81",
+   "name": "Venusaur",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "82",
+   "name": "Vibrava",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "83",
+   "name": "Wailmer",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "84",
+   "name": "Wailord",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "85",
+   "name": "Walrein",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "86",
+   "name": "Whismur",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "87",
+   "name": "Wingull",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "88",
+   "name": "Wurmple",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "89",
+   "name": "Zangoose",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "90",
+   "name": "Checklist",
+   "variants": [
+    "foil"
+   ]
+  },
+  {
+   "number": "D1",
+   "name": "Bulbasaur",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D2",
+   "name": "Ivysaur",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D3",
+   "name": "Venusaur",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D4",
+   "name": "Lotad",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D5",
+   "name": "Lombre",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D6",
+   "name": "Ludicolo",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D7",
+   "name": "Spheal",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D8",
+   "name": "Sealeo",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D9",
+   "name": "Walrein",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D10",
+   "name": "Slakoth",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D11",
+   "name": "Vigoroth",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D12",
+   "name": "Slaking",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D13",
+   "name": "Trapinch",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D14",
+   "name": "Vibrava",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D15",
+   "name": "Flygon",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D16",
+   "name": "Charmander",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D17",
+   "name": "Charmeleon",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "D18",
+   "name": "Charizard",
+   "subset": "Embossed Evolution Die-Cut"
+  },
+  {
+   "number": "P1",
+   "name": "Absol",
+   "subset": "Pop-Up"
+  },
+  {
+   "number": "P2",
+   "name": "Treecko",
+   "subset": "Pop-Up"
+  },
+  {
+   "number": "P3",
+   "name": "Combusken",
+   "subset": "Pop-Up"
+  },
+  {
+   "number": "P4",
+   "name": "Pikachu",
+   "subset": "Pop-Up"
+  },
+  {
+   "number": "P5",
+   "name": "Venusaur",
+   "subset": "Pop-Up"
+  },
+  {
+   "number": "P6",
+   "name": "Marshtomp",
+   "subset": "Pop-Up"
+  },
+  {
+   "number": "P7",
+   "name": "Mudkip",
+   "subset": "Pop-Up"
+  },
+  {
+   "number": "P8",
+   "name": "Charizard",
+   "subset": "Pop-Up"
+  },
+  {
+   "number": "P9",
+   "name": "Grovyle",
+   "subset": "Pop-Up"
+  },
+  {
+   "number": "P10",
+   "name": "Torchic",
+   "subset": "Pop-Up"
+  }
+ ]
+}

@@ -1,0 +1,1462 @@
+{
+ "sourceId": "topps-pokemon-tv1",
+ "name": "Topps Pokemon TV Animation Series 1",
+ "year": 1999,
+ "releaseDate": "1999-08-01",
+ "cards": [
+  {
+   "number": "1",
+   "name": "Bulbasaur",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "2",
+   "name": "Ivysaur",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "3",
+   "name": "Venusaur",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "4",
+   "name": "Charmander",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "5",
+   "name": "Charmeleon",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "6",
+   "name": "Charizard",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "7",
+   "name": "Squirtle",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "8",
+   "name": "Wartortle",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "9",
+   "name": "Blastoise",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "10",
+   "name": "Caterpie",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "11",
+   "name": "Metapod",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "12",
+   "name": "Butterfree",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "13",
+   "name": "Weedle",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "14",
+   "name": "Kakuna",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "15",
+   "name": "Beedrill",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "16",
+   "name": "Pidgey",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "17",
+   "name": "Pidgeotto",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "18",
+   "name": "Pidgeot",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "19",
+   "name": "Rattata",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "20",
+   "name": "Raticate",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "21",
+   "name": "Spearow",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "22",
+   "name": "Fearow",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "23",
+   "name": "Ekans",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "24",
+   "name": "Arbok",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "25",
+   "name": "Pikachu",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "26",
+   "name": "Raichu",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "27",
+   "name": "Sandshrew",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "28",
+   "name": "Sandslash",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "29",
+   "name": "Nidoran♀",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "30",
+   "name": "Nidorina",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "31",
+   "name": "Nidoqueen",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "32",
+   "name": "Nidoran♂",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "33",
+   "name": "Nidorino",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "34",
+   "name": "Nidoking",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "35",
+   "name": "Clefairy",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "36",
+   "name": "Clefable",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "37",
+   "name": "Vulpix",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "38",
+   "name": "Ninetales",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "39",
+   "name": "Jigglypuff",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "40",
+   "name": "Wigglytuff",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "41",
+   "name": "Zubat",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "42",
+   "name": "Golbat",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "43",
+   "name": "Oddish",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "44",
+   "name": "Gloom",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "45",
+   "name": "Vileplume",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "46",
+   "name": "Paras",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "47",
+   "name": "Parasect",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "48",
+   "name": "Venonat",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "49",
+   "name": "Venomoth",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "50",
+   "name": "Diglett",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "51",
+   "name": "Dugtrio",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "52",
+   "name": "Meowth",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "53",
+   "name": "Persian",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "54",
+   "name": "Psyduck",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "55",
+   "name": "Golduck",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "56",
+   "name": "Mankey",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "57",
+   "name": "Primeape",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "58",
+   "name": "Growlithe",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "59",
+   "name": "Arcanine",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "60",
+   "name": "Poliwag",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "61",
+   "name": "Poliwhirl",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "62",
+   "name": "Poliwrath",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "63",
+   "name": "Abra",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "64",
+   "name": "Kadabra",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "65",
+   "name": "Alakazam",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "66",
+   "name": "Machop",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "67",
+   "name": "Machoke",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "68",
+   "name": "Machamp",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "69",
+   "name": "Bellsprout",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "70",
+   "name": "Weepinbell",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "71",
+   "name": "Victreebell",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "72",
+   "name": "Tentacool",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "73",
+   "name": "Tentacruel",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "74",
+   "name": "Geodude",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "75",
+   "name": "Graveler",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "76",
+   "name": "Golem",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV1",
+   "name": "Ash Ketchum",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV2",
+   "name": "Pikachu",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV3",
+   "name": "Misty",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV4",
+   "name": "Brock",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV5",
+   "name": "Staryu",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV6",
+   "name": "Geodude",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV7",
+   "name": "Professor Oak",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV8",
+   "name": "Gary Oak",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV9",
+   "name": "Jesse",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV10",
+   "name": "James",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV11",
+   "name": "Meowth",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV12",
+   "name": "Ekans / Arbok",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "TV13",
+   "name": "Koffing / Weezing",
+   "subset": "tv-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  },
+  {
+   "number": "NNO",
+   "name": "Checklist",
+   "subset": "checklist",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil",
+    "firstPrint",
+    "secondPrint",
+    "thirdPrint",
+    "fourthPrint",
+    "firstPrintSilverFoil",
+    "secondPrintSilverFoil",
+    "thirdPrintSilverFoil",
+    "fourthPrintSilverFoil"
+   ]
+  }
+ ]
+}

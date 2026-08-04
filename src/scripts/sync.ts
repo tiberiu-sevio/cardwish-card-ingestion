@@ -7,6 +7,7 @@ import { GAME_SLUGS } from '../scrydex/types';
 import { syncExpansionCards, expansionsNeedingCards } from '../sync/cards';
 import { syncExpansions } from '../sync/expansions';
 import { mirrorMissingCardImages } from '../sync/images';
+import { syncToppsPokemon } from '../topps/sync';
 import { mirrorYugiohImages, syncYugioh } from '../ygoprodeck/sync';
 
 const log = createLogger('sync');
@@ -61,6 +62,21 @@ async function syncGames(games: string[]): Promise<void> {
     } catch (error) {
       await finishRun(runId, 'failed', String(error));
       throw error;
+    }
+
+    // Topps Pokemon rides along with the pokemon sync: curated local data,
+    // no credits, idempotent (see src/topps/sync.ts).
+    if (game === 'pokemon') {
+      const toppsRun = await createRun('topps', 'topps_sync');
+      try {
+        const result = await syncToppsPokemon();
+        await incrementRun(toppsRun, 'itemsSeen', result.expansions);
+        await incrementRun(toppsRun, 'itemsUpdated', result.cards);
+        await finishRun(toppsRun, 'success');
+      } catch (error) {
+        await finishRun(toppsRun, 'failed', String(error));
+        throw error;
+      }
     }
   }
   log.info(`Scrydex API requests this run: ${requestsMade()}`);

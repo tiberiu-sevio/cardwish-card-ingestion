@@ -1,0 +1,757 @@
+{
+ "sourceId": "topps-pokemon-tv3",
+ "name": "Topps Pokemon TV Animation Series 3",
+ "year": 2000,
+ "releaseDate": "2000-12-01",
+ "cards": [
+  {
+   "number": "118",
+   "name": "Goldeen",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "119",
+   "name": "Seaking",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "120",
+   "name": "Staryu",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "121",
+   "name": "Starmie",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "122",
+   "name": "Mr. Mime",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "123",
+   "name": "Scyther",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "124",
+   "name": "Jynx",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "125",
+   "name": "Electabuzz",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "126",
+   "name": "Magmar",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "127",
+   "name": "Pinsir",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "128",
+   "name": "Tauros",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "129",
+   "name": "Magikarp",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "130",
+   "name": "Gyarados",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "131",
+   "name": "Lapras",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "132",
+   "name": "Ditto",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "133",
+   "name": "Eevee",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "134",
+   "name": "Vaporeon",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "135",
+   "name": "Jolteon",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "136",
+   "name": "Flareon",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "137",
+   "name": "Porygon",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "138",
+   "name": "Omanyte",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "139",
+   "name": "Omastar",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "140",
+   "name": "Kabuto",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "141",
+   "name": "Kabutops",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "142",
+   "name": "Aerodactyl",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "143",
+   "name": "Snorlax",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "144",
+   "name": "Articuno",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "145",
+   "name": "Zapdos",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "146",
+   "name": "Moltres",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "147",
+   "name": "Dratini",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "148",
+   "name": "Dragonair",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "149",
+   "name": "Dragonite",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "150",
+   "name": "Mewtwo",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "151",
+   "name": "Mew",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV6",
+   "name": "Pikachu",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV7",
+   "name": "Misty",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV8",
+   "name": "Brock",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV9",
+   "name": "Meowth",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV10",
+   "name": "Butch",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV11",
+   "name": "Tracey Sketchit",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV12",
+   "name": "Professor Oak",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV13",
+   "name": "Lapras",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV14",
+   "name": "Snorlax",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV15",
+   "name": "Marill",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV16",
+   "name": "Nurse Joy",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "HV17",
+   "name": "Officer Jenny",
+   "subset": "heroes-villains",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR1",
+   "name": "The Lost Lapras",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR2",
+   "name": "Fit to Be Tied",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR3",
+   "name": "Pikachu Re-Volts",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR4",
+   "name": "The Crystal Onix",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR5",
+   "name": "In the Pink",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR6",
+   "name": "Shell Shock!",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR7",
+   "name": "Stage Fight!",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR8",
+   "name": "Bye Bye Psyduck",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR9",
+   "name": "The Joy of Pokémon",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR10",
+   "name": "Navel Maneuvers",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR11",
+   "name": "Snack Attack",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR12",
+   "name": "A Shipful of Shivers",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR13",
+   "name": "Meowth Rules!",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR14",
+   "name": "Tracey Gets Bugged",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR15",
+   "name": "A Way Off Day Off",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR16",
+   "name": "The Mandarin Island Miss Match",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR17",
+   "name": "Wherefore Art Thou Pokémon?",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR18",
+   "name": "Git Along, Little Pokémon",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "OR19",
+   "name": "The Mystery Menace",
+   "subset": "orange-islands-episode",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "P01",
+   "name": "Puzzle Card 1",
+   "subset": "puzzle",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "P02",
+   "name": "Puzzle Card 2",
+   "subset": "puzzle",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "P03",
+   "name": "Puzzle Card 3",
+   "subset": "puzzle",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "P04",
+   "name": "Puzzle Card 4",
+   "subset": "puzzle",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "P05",
+   "name": "Puzzle Card 5",
+   "subset": "puzzle",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "P06",
+   "name": "Puzzle Card 6",
+   "subset": "puzzle",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "NNO",
+   "name": "Checklist",
+   "subset": "checklist",
+   "variants": [
+    "silverFoil",
+    "rainbowFoil"
+   ]
+  },
+  {
+   "number": "EVO1",
+   "name": "Weedle",
+   "subset": "evolution"
+  },
+  {
+   "number": "EVO2",
+   "name": "Kakuna",
+   "subset": "evolution"
+  },
+  {
+   "number": "EVO3",
+   "name": "Beedrill",
+   "subset": "evolution"
+  },
+  {
+   "number": "EVO4",
+   "name": "Gastly",
+   "subset": "evolution"
+  },
+  {
+   "number": "EVO5",
+   "name": "Haunter",
+   "subset": "evolution"
+  },
+  {
+   "number": "EVO6",
+   "name": "Gengar",
+   "subset": "evolution"
+  },
+  {
+   "number": "EVO7",
+   "name": "Nidoran♀",
+   "subset": "evolution"
+  },
+  {
+   "number": "EVO8",
+   "name": "Nidorina",
+   "subset": "evolution"
+  },
+  {
+   "number": "EVO9",
+   "name": "Nidoqueen",
+   "subset": "evolution"
+  },
+  {
+   "number": "EVO10",
+   "name": "Machop",
+   "subset": "evolution"
+  },
+  {
+   "number": "EVO11",
+   "name": "Machoke",
+   "subset": "evolution"
+  },
+  {
+   "number": "EVO12",
+   "name": "Machamp",
+   "subset": "evolution"
+  },
+  {
+   "number": "1",
+   "name": "Ash",
+   "subset": "pop-up"
+  },
+  {
+   "number": "2",
+   "name": "Pikachu",
+   "subset": "pop-up"
+  },
+  {
+   "number": "3",
+   "name": "Tracey",
+   "subset": "pop-up"
+  },
+  {
+   "number": "4",
+   "name": "Misty",
+   "subset": "pop-up"
+  },
+  {
+   "number": "5",
+   "name": "Team Rocket",
+   "subset": "pop-up"
+  },
+  {
+   "number": "6",
+   "name": "Marill",
+   "subset": "pop-up"
+  },
+  {
+   "number": "7",
+   "name": "Psyduck",
+   "subset": "pop-up"
+  },
+  {
+   "number": "8",
+   "name": "Bulbasaur",
+   "subset": "pop-up"
+  },
+  {
+   "number": "9",
+   "name": "Charizard",
+   "subset": "pop-up"
+  },
+  {
+   "number": "10",
+   "name": "Squirtle",
+   "subset": "pop-up"
+  },
+  {
+   "number": "PC6",
+   "name": "Venonat",
+   "subset": "clear"
+  },
+  {
+   "number": "PC7",
+   "name": "Mew",
+   "subset": "clear"
+  },
+  {
+   "number": "PC8",
+   "name": "Togepi",
+   "subset": "clear"
+  },
+  {
+   "number": "PC9",
+   "name": "Scyther",
+   "subset": "clear"
+  },
+  {
+   "number": "PC10",
+   "name": "Lapras",
+   "subset": "clear"
+  }
+ ]
+}
