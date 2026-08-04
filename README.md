@@ -24,6 +24,26 @@ code as metadata.
 - Credit guard: Scrydex bills overage automatically, so syncs abort when
   `remaining_credits` drops below `SCRYDEX_MIN_CREDITS`.
 
+## Variant rows and variant tags
+
+Cards are stored **one row per printing variant**: the base printing keeps
+the source id and an unsuffixed slug; siblings live at
+`{sourceId}#{variantName}` (`gym2-2#firstEditionHolofoil`) with the reduced
+variant appended to the slug (`…-1st-edition`). Yu-Gi-Oh's variant dimension
+is rarity: a set code printed in several rarities becomes one row per
+rarity (`…#ultra-rare`).
+
+During sync, each variant row is tagged with **atomic variant tags**
+(`card_variant_tags`): the raw variant name decomposes via
+[src/lib/variant-vocab.ts](src/lib/variant-vocab.ts) —
+`firstEditionShadowlessHolofoil` → [1st Edition] + [Shadowless] +
+[Holofoil]. That file is a **mirror of
+`cardwish-crawler/src/matching/variant-vocab.ts`** (same convention as the
+Prisma schema: edit there first, copy here). Base printings deliberately
+carry no tags — absence of edition/finish tags *is* the base variant. The
+matcher uses these tags to land listings on the exact variant row; full
+spec in the crawler repo's `docs/matching.md`.
+
 ## Commands
 
 ```bash
