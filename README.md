@@ -1,12 +1,21 @@
 # cardwish-card-ingestion
 
 Canonical card & expansion catalog for Cardwish, with card images mirrored
-to our own CDN (DO Spaces today; S3-compatible and swappable). Two sources:
+to our own CDN (DO Spaces today; S3-compatible and swappable). Three sources:
 
 - [Scrydex API](https://scrydex.com/docs) — Pokémon, Lorcana, Magic, Gundam,
   One Piece, Riftbound (credit-metered; `X-Api-Key` + `X-Team-ID`)
 - [YGOPRODeck API](https://ygoprodeck.com/api-guide/) — Yu-Gi-Oh (free, no
   auth; cards stored one row per print, artwork-deduplicated image mirroring)
+- **Curated Topps Pokemon** ([data/topps-pokemon/](data/topps-pokemon/)) —
+  the 1999–2004 licensed Topps sets (TV Animation S1–S3, First Movie,
+  Movie 2000, Chrome S1–S2, Johto, Johto League Champions, Advanced,
+  Advanced Challenge). No API carries them; checklists were cross-verified
+  against public sources (TCDb, Bulbapedia, Cardboard Connection, nslists,
+  PSA labels), verified-only — unverified chase subsets are deliberately
+  absent. Stored under `game=pokemon` with `series='Topps'` (the matcher
+  partitions candidates on that series). Synced by `src/topps/sync.ts`
+  inside `sync pokemon`, or standalone: `npx tsx src/scripts/topps.ts`.
 
 Everything stored is English — non-English prints keep only their language
 code as metadata.
