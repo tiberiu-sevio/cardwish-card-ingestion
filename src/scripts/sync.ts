@@ -6,6 +6,7 @@ import { assertCreditsAvailable, getUsage, requestsMade } from '../scrydex/clien
 import { GAME_SLUGS } from '../scrydex/types';
 import { syncExpansionCards, expansionsNeedingCards } from '../sync/cards';
 import { syncExpansions } from '../sync/expansions';
+import { syncOptcgJp } from '../optcgjp/sync';
 import { mirrorMissingCardImages } from '../sync/images';
 import { syncToppsPokemon } from '../topps/sync';
 import { mirrorYugiohImages, syncYugioh } from '../ygoprodeck/sync';
@@ -62,6 +63,21 @@ async function syncGames(games: string[]): Promise<void> {
     } catch (error) {
       await finishRun(runId, 'failed', String(error));
       throw error;
+    }
+
+    // Japanese One Piece rides along with the onepiece sync: official
+    // Bandai cardlists via punk-records, no credits (see src/optcgjp/sync.ts).
+    if (game === 'onepiece') {
+      const jpRun = await createRun('optcg-jp', 'optcgjp_sync');
+      try {
+        const result = await syncOptcgJp();
+        await incrementRun(jpRun, 'itemsSeen', result.expansions);
+        await incrementRun(jpRun, 'itemsUpdated', result.cards);
+        await finishRun(jpRun, 'success');
+      } catch (error) {
+        await finishRun(jpRun, 'failed', String(error));
+        throw error;
+      }
     }
 
     // Topps Pokemon rides along with the pokemon sync: curated local data,
