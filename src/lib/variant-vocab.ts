@@ -181,6 +181,7 @@ export const TAGS: Record<string, { label: string; kind: VariantKind }> = {
   'super-rare': { label: 'Super Rare', kind: 'rarity' },
   'ultra-rare': { label: 'Ultra Rare', kind: 'rarity' },
   'ultimate-rare': { label: 'Ultimate Rare', kind: 'rarity' },
+  'collector-rare': { label: 'Collector Rare', kind: 'rarity' },
   'secret-rare': { label: 'Secret Rare', kind: 'rarity' },
   'extra-secret-rare': { label: 'Extra Secret Rare', kind: 'rarity' },
   'platinum-secret-rare': { label: 'Platinum Secret Rare', kind: 'rarity' },
@@ -202,6 +203,8 @@ export const TAGS: Record<string, { label: string; kind: VariantKind }> = {
   'no-damage-error': { label: 'No Damage (Error)', kind: 'error' },
   corrected: { label: 'Corrected', kind: 'error' },
   'alternate-print': { label: 'Alternate Print', kind: 'other' },
+  // eBay "Features: Misprint" — an error card, its own collectible.
+  misprint: { label: 'Misprint', kind: 'error' },
   'peelable-ditto': { label: 'Peelable Ditto', kind: 'other' },
 };
 
