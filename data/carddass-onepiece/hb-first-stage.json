@@ -1,0 +1,176 @@
+{
+ "sourceId": "carddass-hb-first-stage",
+ "name": "Carddass Hyper Battle 1st Stage",
+ "year": 1999,
+ "releaseDate": "1999-11-01",
+ "cards": [
+  {
+   "number": "C01",
+   "name": "Luffy"
+  },
+  {
+   "number": "C02",
+   "name": "Luffy"
+  },
+  {
+   "number": "C03",
+   "name": "Luffy"
+  },
+  {
+   "number": "C04",
+   "name": "Luffy"
+  },
+  {
+   "number": "C05",
+   "name": "Luffy's Hat"
+  },
+  {
+   "number": "C06",
+   "name": "Zoro"
+  },
+  {
+   "number": "C07",
+   "name": "Zoro"
+  },
+  {
+   "number": "C08",
+   "name": "Zoro"
+  },
+  {
+   "number": "C09",
+   "name": "Nami"
+  },
+  {
+   "number": "C10",
+   "name": "Nami"
+  },
+  {
+   "number": "C11",
+   "name": "Nami"
+  },
+  {
+   "number": "C12",
+   "name": "Usopp"
+  },
+  {
+   "number": "C13",
+   "name": "Usopp"
+  },
+  {
+   "number": "C14",
+   "name": "Shanks"
+  },
+  {
+   "number": "C15",
+   "name": "Beckmann"
+  },
+  {
+   "number": "C16",
+   "name": "Kuina"
+  },
+  {
+   "number": "C17",
+   "name": "Koby"
+  },
+  {
+   "number": "C18",
+   "name": "Rika"
+  },
+  {
+   "number": "C19",
+   "name": "Boodle"
+  },
+  {
+   "number": "C20",
+   "name": "Chou-chou"
+  },
+  {
+   "number": "C21",
+   "name": "Alvida"
+  },
+  {
+   "number": "C22",
+   "name": "Morgan"
+  },
+  {
+   "number": "C23",
+   "name": "Helmeppo"
+  },
+  {
+   "number": "C24",
+   "name": "Buggy"
+  },
+  {
+   "number": "C25",
+   "name": "Buggy"
+  },
+  {
+   "number": "C26",
+   "name": "Buggy Cannon"
+  },
+  {
+   "number": "C27",
+   "name": "Mohji"
+  },
+  {
+   "number": "C28",
+   "name": "Richie"
+  },
+  {
+   "number": "C29",
+   "name": "Cabaji"
+  },
+  {
+   "number": "C30",
+   "name": "Lord of the Coast"
+  },
+  {
+   "number": "C31",
+   "name": "Alvida Crew"
+  },
+  {
+   "number": "C32",
+   "name": "Morgan Troops"
+  },
+  {
+   "number": "C33",
+   "name": "Buggy Crew"
+  },
+  {
+   "number": "C34",
+   "name": "Red Hair Pirates"
+  },
+  {
+   "number": "S01",
+   "name": "Luffy Pirates"
+  },
+  {
+   "number": "S02",
+   "name": "Luffy"
+  },
+  {
+   "number": "S03",
+   "name": "Gomu Gomu no Mi"
+  },
+  {
+   "number": "S04",
+   "name": "Zoro"
+  },
+  {
+   "number": "S05",
+   "name": "Nami"
+  },
+  {
+   "number": "S06",
+   "name": "Shanks"
+  },
+  {
+   "number": "S07",
+   "name": "Morgan"
+  },
+  {
+   "number": "S08",
+   "name": "Buggy"
+  }
+ ]
+}

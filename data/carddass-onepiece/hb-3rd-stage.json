@@ -1,0 +1,176 @@
+{
+ "sourceId": "carddass-hb-3rd-stage",
+ "name": "Carddass Hyper Battle 3rd Stage",
+ "year": 2000,
+ "releaseDate": "2000-04-01",
+ "cards": [
+  {
+   "number": "C111",
+   "name": "Luffy"
+  },
+  {
+   "number": "C112",
+   "name": "Luffy"
+  },
+  {
+   "number": "C113",
+   "name": "「ルフィ」"
+  },
+  {
+   "number": "C114",
+   "name": "Zoro"
+  },
+  {
+   "number": "C115",
+   "name": "Zoro"
+  },
+  {
+   "number": "C116",
+   "name": "Nami"
+  },
+  {
+   "number": "C117",
+   "name": "Nami"
+  },
+  {
+   "number": "C118",
+   "name": "Usopp"
+  },
+  {
+   "number": "C119",
+   "name": "Usopp"
+  },
+  {
+   "number": "C120",
+   "name": "Sanji"
+  },
+  {
+   "number": "C121",
+   "name": "Sanji"
+  },
+  {
+   "number": "C122",
+   "name": "Shanks"
+  },
+  {
+   "number": "C123",
+   "name": "Shanks"
+  },
+  {
+   "number": "C124",
+   "name": "Kaya"
+  },
+  {
+   "number": "C125",
+   "name": "Gaimon"
+  },
+  {
+   "number": "C126",
+   "name": "Zeff"
+  },
+  {
+   "number": "C127",
+   "name": "Yosaku"
+  },
+  {
+   "number": "C128",
+   "name": "Johnny"
+  },
+  {
+   "number": "C129",
+   "name": "Ganzo"
+  },
+  {
+   "number": "C130",
+   "name": "Ganzo"
+  },
+  {
+   "number": "C131",
+   "name": "Tobio"
+  },
+  {
+   "number": "C132",
+   "name": "Woonan"
+  },
+  {
+   "number": "C133",
+   "name": "Woonan"
+  },
+  {
+   "number": "C134",
+   "name": "Kuro"
+  },
+  {
+   "number": "C135",
+   "name": "Jango"
+  },
+  {
+   "number": "C136",
+   "name": "Jango"
+  },
+  {
+   "number": "C137",
+   "name": "Krieg"
+  },
+  {
+   "number": "C138",
+   "name": "Gin"
+  },
+  {
+   "number": "C139",
+   "name": "El Drago"
+  },
+  {
+   "number": "C140",
+   "name": "Golass"
+  },
+  {
+   "number": "C141",
+   "name": "Luffy Pirates"
+  },
+  {
+   "number": "C142",
+   "name": "Usopp Pirates"
+  },
+  {
+   "number": "C143",
+   "name": "Krieg Plunder Force"
+  },
+  {
+   "number": "C144",
+   "name": "Eldraggo's 3 Men"
+  },
+  {
+   "number": "S27",
+   "name": "Luffy"
+  },
+  {
+   "number": "S28",
+   "name": "Usopp"
+  },
+  {
+   "number": "S29",
+   "name": "Sanji"
+  },
+  {
+   "number": "S30",
+   "name": "Kurohadol"
+  },
+  {
+   "number": "S31",
+   "name": "Krieg"
+  },
+  {
+   "number": "S32",
+   "name": "Eldraggo"
+  },
+  {
+   "number": "FP09",
+   "name": "Krieg Grand Fleet"
+  },
+  {
+   "number": "FP10",
+   "name": "Baratie Cooking"
+  }
+ ]
+}

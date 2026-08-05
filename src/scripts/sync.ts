@@ -6,6 +6,7 @@ import { assertCreditsAvailable, getUsage, requestsMade } from '../scrydex/clien
 import { GAME_SLUGS } from '../scrydex/types';
 import { syncExpansionCards, expansionsNeedingCards } from '../sync/cards';
 import { syncExpansions } from '../sync/expansions';
+import { syncCarddass } from '../carddass/sync';
 import { syncOptcgJp } from '../optcgjp/sync';
 import { mirrorMissingCardImages } from '../sync/images';
 import { syncToppsPokemon } from '../topps/sync';
@@ -76,6 +77,18 @@ async function syncGames(games: string[]): Promise<void> {
         await finishRun(jpRun, 'success');
       } catch (error) {
         await finishRun(jpRun, 'failed', String(error));
+        throw error;
+      }
+
+      // Pre-TCG Carddass lines: curated local data (see src/carddass/sync.ts).
+      const carddassRun = await createRun('carddass', 'carddass_sync');
+      try {
+        const result = await syncCarddass();
+        await incrementRun(carddassRun, 'itemsSeen', result.expansions);
+        await incrementRun(carddassRun, 'itemsUpdated', result.cards);
+        await finishRun(carddassRun, 'success');
+      } catch (error) {
+        await finishRun(carddassRun, 'failed', String(error));
         throw error;
       }
     }

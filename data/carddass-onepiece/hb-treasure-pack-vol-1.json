@@ -1,0 +1,344 @@
+{
+ "sourceId": "carddass-hb-treasure-pack-vol-1",
+ "name": "Carddass Hyper Battle Treasure Pack Vol. 1",
+ "year": 2001,
+ "releaseDate": "2001-09-01",
+ "cards": [
+  {
+   "number": "RC-01",
+   "name": "Luffy's Hat"
+  },
+  {
+   "number": "RC-02",
+   "name": "Nami"
+  },
+  {
+   "number": "RC-03",
+   "name": "Beckmann"
+  },
+  {
+   "number": "RC-04",
+   "name": "Kuina"
+  },
+  {
+   "number": "RC-05",
+   "name": "Alvida"
+  },
+  {
+   "number": "RC-06",
+   "name": "Morgan"
+  },
+  {
+   "number": "RC-07",
+   "name": "Helmeppo"
+  },
+  {
+   "number": "RC-08",
+   "name": "Red Hair Pirates"
+  },
+  {
+   "number": "RC-09",
+   "name": "Zoro"
+  },
+  {
+   "number": "RC-10",
+   "name": "Usopp"
+  },
+  {
+   "number": "RC-11",
+   "name": "Usopp's Weapon"
+  },
+  {
+   "number": "RC-12",
+   "name": "Kaya"
+  },
+  {
+   "number": "RC-13",
+   "name": "Merry"
+  },
+  {
+   "number": "RC-14",
+   "name": "Kuro"
+  },
+  {
+   "number": "RC-15",
+   "name": "Black Cat Pirates"
+  },
+  {
+   "number": "RC-16",
+   "name": "Luffy"
+  },
+  {
+   "number": "RC-17",
+   "name": "Nami's Weapon"
+  },
+  {
+   "number": "RC-18",
+   "name": "Shanks"
+  },
+  {
+   "number": "RC-19",
+   "name": "Shanks"
+  },
+  {
+   "number": "RC-20",
+   "name": "Lucky Roux"
+  },
+  {
+   "number": "RC-21",
+   "name": "Yasopp"
+  },
+  {
+   "number": "RC-22",
+   "name": "Makino"
+  },
+  {
+   "number": "RC-23",
+   "name": "Koby"
+  },
+  {
+   "number": "RC-24",
+   "name": "Rika"
+  },
+  {
+   "number": "RC-25",
+   "name": "Boodle"
+  },
+  {
+   "number": "RC-26",
+   "name": "ChuChu"
+  },
+  {
+   "number": "RC-27",
+   "name": "Buggy"
+  },
+  {
+   "number": "RC-28",
+   "name": "Cabaji"
+  },
+  {
+   "number": "RC-29",
+   "name": "Mohji & Richie"
+  },
+  {
+   "number": "RC-30",
+   "name": "Jango"
+  },
+  {
+   "number": "RC-31",
+   "name": "Buchi"
+  },
+  {
+   "number": "RC-32",
+   "name": "Sham"
+  },
+  {
+   "number": "RC-33",
+   "name": "Buggy Crew"
+  },
+  {
+   "number": "RC-34",
+   "name": "Sanji"
+  },
+  {
+   "number": "RC-35",
+   "name": "Gaimon"
+  },
+  {
+   "number": "RC-36",
+   "name": "Zeff"
+  },
+  {
+   "number": "RC-37",
+   "name": "Ganzo"
+  },
+  {
+   "number": "RC-38",
+   "name": "Tobio"
+  },
+  {
+   "number": "RC-39",
+   "name": "Woonan"
+  },
+  {
+   "number": "RC-40",
+   "name": "Kuro"
+  },
+  {
+   "number": "RC-41",
+   "name": "Jango"
+  },
+  {
+   "number": "RC-42",
+   "name": "Krieg"
+  },
+  {
+   "number": "RC-43",
+   "name": "El Drago"
+  },
+  {
+   "number": "RC-44",
+   "name": "Golass"
+  },
+  {
+   "number": "RC-45",
+   "name": "Luffy Pirates"
+  },
+  {
+   "number": "RC-46",
+   "name": "Usopp Pirates"
+  },
+  {
+   "number": "RC-47",
+   "name": "Zoro"
+  },
+  {
+   "number": "RC-48",
+   "name": "Wado Ichimonji"
+  },
+  {
+   "number": "RC-49",
+   "name": "Mihawk"
+  },
+  {
+   "number": "RC-50",
+   "name": "Mihawk's Sword"
+  },
+  {
+   "number": "RC-51",
+   "name": "Pearl"
+  },
+  {
+   "number": "RC-52",
+   "name": "Luffy"
+  },
+  {
+   "number": "RC-53",
+   "name": "Usopp"
+  },
+  {
+   "number": "RC-54",
+   "name": "Sanji"
+  },
+  {
+   "number": "RC-55",
+   "name": "Patty"
+  },
+  {
+   "number": "RC-56",
+   "name": "Carne"
+  },
+  {
+   "number": "RC-57",
+   "name": "Cuisine Carving Knife"
+  },
+  {
+   "number": "RC-58",
+   "name": "Smoker"
+  },
+  {
+   "number": "RC-59",
+   "name": "Arlong"
+  },
+  {
+   "number": "RC-60",
+   "name": "Krieg Assault Force"
+  },
+  {
+   "number": "RS-01",
+   "name": "Luffy"
+  },
+  {
+   "number": "RS-02",
+   "name": "Nami"
+  },
+  {
+   "number": "RS-03",
+   "name": "Shanks"
+  },
+  {
+   "number": "RS-04",
+   "name": "Kuro"
+  },
+  {
+   "number": "RS-05",
+   "name": "Nami"
+  },
+  {
+   "number": "RS-06",
+   "name": "Shanks"
+  },
+  {
+   "number": "RS-07",
+   "name": "Buggy"
+  },
+  {
+   "number": "RS-08",
+   "name": "Sanji"
+  },
+  {
+   "number": "RS-09",
+   "name": "Zoro"
+  },
+  {
+   "number": "RS-10",
+   "name": "Krieg"
+  },
+  {
+   "number": "RS-11",
+   "name": "Gin"
+  },
+  {
+   "number": "RS-12",
+   "name": "Luffy Pirates"
+  },
+  {
+   "number": "RS-13",
+   "name": "Usopp"
+  },
+  {
+   "number": "RS-14",
+   "name": "Zeff"
+  },
+  {
+   "number": "RS-15",
+   "name": "Krieg"
+  },
+  {
+   "number": "RFP-01",
+   "name": "Large Maelstrom"
+  },
+  {
+   "number": "RFP-02",
+   "name": "Drinking Pub"
+  },
+  {
+   "number": "RFP-03",
+   "name": "Jango's Pirates"
+  },
+  {
+   "number": "RFP-04",
+   "name": "Going Merry"
+  },
+  {
+   "number": "RFP-05",
+   "name": "Great Krieg Fleet"
+  },
+  {
+   "number": "RFP-06",
+   "name": "Baratie Cooking"
+  },
+  {
+   "number": "RFP-07",
+   "name": "Baratie in Battle"
+  },
+  {
+   "number": "RFP-08",
+   "name": "Arlong Park"
+  },
+  {
+   "number": "RFP-09",
+   "name": "Cocoyasi Village"
+  }
+ ]
+}

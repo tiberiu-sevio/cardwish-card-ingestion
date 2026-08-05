@@ -1,0 +1,344 @@
+{
+ "sourceId": "carddass-hb-treasure-pack-vol-2",
+ "name": "Carddass Hyper Battle Treasure Pack Vol. 2",
+ "year": 2002,
+ "releaseDate": "2002-01-01",
+ "cards": [
+  {
+   "number": "RC-61",
+   "name": "Luffy"
+  },
+  {
+   "number": "RC-62",
+   "name": "Yubashiri"
+  },
+  {
+   "number": "RC-63",
+   "name": "Sandai Kitetsu"
+  },
+  {
+   "number": "RC-64",
+   "name": "Ipponmatsu"
+  },
+  {
+   "number": "RC-65",
+   "name": "Shikure"
+  },
+  {
+   "number": "RC-66",
+   "name": "Arlong"
+  },
+  {
+   "number": "RC-67",
+   "name": "Hatchan"
+  },
+  {
+   "number": "RC-68",
+   "name": "Kuroobi"
+  },
+  {
+   "number": "RC-69",
+   "name": "Chew"
+  },
+  {
+   "number": "RC-70",
+   "name": "Arlong's Crew"
+  },
+  {
+   "number": "RC-71",
+   "name": "Buggy's Crew"
+  },
+  {
+   "number": "RC-72",
+   "name": "Zoro"
+  },
+  {
+   "number": "RC-73",
+   "name": "Sanji"
+  },
+  {
+   "number": "RC-74",
+   "name": "Ryuuji"
+  },
+  {
+   "number": "RC-75",
+   "name": "Alvida"
+  },
+  {
+   "number": "RC-76",
+   "name": "Cabaji"
+  },
+  {
+   "number": "RC-77",
+   "name": "Richie Bike"
+  },
+  {
+   "number": "RC-78",
+   "name": "Luffy"
+  },
+  {
+   "number": "RC-79",
+   "name": "Zoro"
+  },
+  {
+   "number": "RC-80",
+   "name": "Sanji"
+  },
+  {
+   "number": "RC-81",
+   "name": "Shanks"
+  },
+  {
+   "number": "RC-82",
+   "name": "Beckmann"
+  },
+  {
+   "number": "RC-83",
+   "name": "Lucky Roux"
+  },
+  {
+   "number": "RC-84",
+   "name": "Makino"
+  },
+  {
+   "number": "RC-85",
+   "name": "Bokuden"
+  },
+  {
+   "number": "RC-86",
+   "name": "Nelson Royale"
+  },
+  {
+   "number": "RC-87",
+   "name": "Eric"
+  },
+  {
+   "number": "RC-88",
+   "name": "Bat"
+  },
+  {
+   "number": "RC-89",
+   "name": "Captain Joke"
+  },
+  {
+   "number": "RC-90",
+   "name": "Zoro"
+  },
+  {
+   "number": "RC-91",
+   "name": "Nami"
+  },
+  {
+   "number": "RC-92",
+   "name": "Log Pose"
+  },
+  {
+   "number": "RC-93",
+   "name": "Carmen"
+  },
+  {
+   "number": "RC-94",
+   "name": "Borodo"
+  },
+  {
+   "number": "RC-95",
+   "name": "Akisu"
+  },
+  {
+   "number": "RC-96",
+   "name": "Daddy"
+  },
+  {
+   "number": "RC-97",
+   "name": "Pin Joker"
+  },
+  {
+   "number": "RC-98",
+   "name": "Skunk One"
+  },
+  {
+   "number": "RC-99",
+   "name": "Honey Queen"
+  },
+  {
+   "number": "RC-100",
+   "name": "Boo Jack"
+  },
+  {
+   "number": "RC-101",
+   "name": "Mr. 9"
+  },
+  {
+   "number": "RC-102",
+   "name": "Miss Wednesday"
+  },
+  {
+   "number": "RC-103",
+   "name": "Luffy Pirates"
+  },
+  {
+   "number": "RC-104",
+   "name": "Nami"
+  },
+  {
+   "number": "RC-105",
+   "name": "Usopp"
+  },
+  {
+   "number": "RC-106",
+   "name": "Sanji"
+  },
+  {
+   "number": "RC-107",
+   "name": "Apis"
+  },
+  {
+   "number": "RC-108",
+   "name": "Crocus"
+  },
+  {
+   "number": "RC-109",
+   "name": "Laboon"
+  },
+  {
+   "number": "RC-110",
+   "name": "Vivi"
+  },
+  {
+   "number": "RC-111",
+   "name": "Karoo"
+  },
+  {
+   "number": "RC-112",
+   "name": "Mr. 8"
+  },
+  {
+   "number": "RC-113",
+   "name": "Mr. 9"
+  },
+  {
+   "number": "RC-114",
+   "name": "Miss Monday"
+  },
+  {
+   "number": "RS-16",
+   "name": "Shanks"
+  },
+  {
+   "number": "RS17",
+   "name": "Smoker"
+  },
+  {
+   "number": "RS-18",
+   "name": "Luffy Pirates"
+  },
+  {
+   "number": "RS-19",
+   "name": "Dragon"
+  },
+  {
+   "number": "RS-20",
+   "name": "Buggy"
+  },
+  {
+   "number": "RS-21",
+   "name": "Apis"
+  },
+  {
+   "number": "RS-22",
+   "name": "Tashigi"
+  },
+  {
+   "number": "RS-23",
+   "name": "Luffy"
+  },
+  {
+   "number": "RS-24",
+   "name": "Usopp"
+  },
+  {
+   "number": "RS-25",
+   "name": "Bear King"
+  },
+  {
+   "number": "RS-26",
+   "name": "Luffy Pirates"
+  },
+  {
+   "number": "RS-27",
+   "name": "Apis & Bokuden"
+  },
+  {
+   "number": "RS-28",
+   "name": "Eric & Nelson"
+  },
+  {
+   "number": "RS-29",
+   "name": "Luffy"
+  },
+  {
+   "number": "RS-30",
+   "name": "Zoro"
+  },
+  {
+   "number": "RH-01",
+   "name": "Martial Arts"
+  },
+  {
+   "number": "RH-02",
+   "name": "Pacifistic Defense"
+  },
+  {
+   "number": "RH-03",
+   "name": "Fighting Spirit"
+  },
+  {
+   "number": "RH-04",
+   "name": "Three Sword Style"
+  },
+  {
+   "number": "RH-05",
+   "name": "Stampede"
+  },
+  {
+   "number": "RH-06",
+   "name": "Forecful Seizure"
+  },
+  {
+   "number": "RFP-10",
+   "name": "Nami's Survey Room"
+  },
+  {
+   "number": "RFP-11",
+   "name": "Loguetown"
+  },
+  {
+   "number": "RFP-12",
+   "name": "Lost Island"
+  },
+  {
+   "number": "RFP-13",
+   "name": "Gosa Village"
+  },
+  {
+   "number": "RFP-14",
+   "name": "Warship Island"
+  },
+  {
+   "number": "RFP-15",
+   "name": "Arlong's Pirate Ship"
+  },
+  {
+   "number": "RFP-16",
+   "name": "Clockwork Island"
+  },
+  {
+   "number": "RFP-17",
+   "name": "Reverse Mountain"
+  },
+  {
+   "number": "RFP-18",
+   "name": "Sea King Nest"
+  }
+ ]
+}

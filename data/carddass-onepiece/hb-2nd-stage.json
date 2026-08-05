@@ -1,0 +1,176 @@
+{
+ "sourceId": "carddass-hb-2nd-stage",
+ "name": "Carddass Hyper Battle 2nd Stage",
+ "year": 2000,
+ "releaseDate": "2000-01-01",
+ "cards": [
+  {
+   "number": "C35",
+   "name": "Luffy"
+  },
+  {
+   "number": "C36",
+   "name": "Luffy"
+  },
+  {
+   "number": "C37",
+   "name": "Luffy"
+  },
+  {
+   "number": "C38",
+   "name": "Zoro"
+  },
+  {
+   "number": "C39",
+   "name": "Zoro"
+  },
+  {
+   "number": "C40",
+   "name": "Zoro"
+  },
+  {
+   "number": "C41",
+   "name": "Nami"
+  },
+  {
+   "number": "C42",
+   "name": "Nami"
+  },
+  {
+   "number": "C43",
+   "name": "Nami"
+  },
+  {
+   "number": "C44",
+   "name": "Usopp"
+  },
+  {
+   "number": "C45",
+   "name": "Usopp"
+  },
+  {
+   "number": "C46",
+   "name": "Usopp's Weapon"
+  },
+  {
+   "number": "C47",
+   "name": "Chou-chou"
+  },
+  {
+   "number": "C48",
+   "name": "Yasopp"
+  },
+  {
+   "number": "C49",
+   "name": "Kaya"
+  },
+  {
+   "number": "C50",
+   "name": "Merry"
+  },
+  {
+   "number": "C51",
+   "name": "Kurahadol"
+  },
+  {
+   "number": "C52",
+   "name": "Tamanegi"
+  },
+  {
+   "number": "C53",
+   "name": "Piiman"
+  },
+  {
+   "number": "C54",
+   "name": "Ninjin"
+  },
+  {
+   "number": "C55",
+   "name": "Buggy"
+  },
+  {
+   "number": "C56",
+   "name": "Buggy"
+  },
+  {
+   "number": "C57",
+   "name": "Mohji & Richie"
+  },
+  {
+   "number": "C58",
+   "name": "Cabaji"
+  },
+  {
+   "number": "C59",
+   "name": "Buggy's 3 Underlings"
+  },
+  {
+   "number": "C60",
+   "name": "Kuro"
+  },
+  {
+   "number": "C61",
+   "name": "Kuro"
+  },
+  {
+   "number": "C62",
+   "name": "Jango"
+  },
+  {
+   "number": "C63",
+   "name": "Jango's Weapon"
+  },
+  {
+   "number": "C64",
+   "name": "Sham"
+  },
+  {
+   "number": "C65",
+   "name": "Buchi"
+  },
+  {
+   "number": "C66",
+   "name": "Black Cat Pirates"
+  },
+  {
+   "number": "S09",
+   "name": "Luffy Pirates"
+  },
+  {
+   "number": "S10",
+   "name": "Luffy"
+  },
+  {
+   "number": "S11",
+   "name": "Zoro"
+  },
+  {
+   "number": "S12",
+   "name": "Usopp"
+  },
+  {
+   "number": "S13",
+   "name": "Sanji"
+  },
+  {
+   "number": "S14",
+   "name": "Buggy"
+  },
+  {
+   "number": "S15",
+   "name": "Kuro"
+  },
+  {
+   "number": "S16",
+   "name": "Jango"
+  },
+  {
+   "number": "FP1",
+   "name": "Large Maelstrom"
+  },
+  {
+   "number": "FP2",
+   "name": "Buggy Pirates"
+  }
+ ]
+}

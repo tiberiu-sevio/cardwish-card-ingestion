@@ -1,0 +1,444 @@
+{
+ "sourceId": "carddass-visual-adventure",
+ "name": "Carddass One Piece Visual Adventure",
+ "year": 2000,
+ "releaseDate": "2000-01-01",
+ "cards": [
+  {
+   "number": "1",
+   "name": "Lucky Roux/Luffy/Nami/Shanks"
+  },
+  {
+   "number": "2",
+   "name": "Luffy"
+  },
+  {
+   "number": "3",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "4",
+   "name": "Luffy/Zoro"
+  },
+  {
+   "number": "5",
+   "name": "Luffy/Zoro"
+  },
+  {
+   "number": "6",
+   "name": "Zoro"
+  },
+  {
+   "number": "7",
+   "name": "Luffy/Zoro"
+  },
+  {
+   "number": "8",
+   "name": "Luffy"
+  },
+  {
+   "number": "9",
+   "name": "Luffy"
+  },
+  {
+   "number": "10",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "11",
+   "name": "Nami"
+  },
+  {
+   "number": "12",
+   "name": "Luffy"
+  },
+  {
+   "number": "13",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "14",
+   "name": "Nami"
+  },
+  {
+   "number": "15",
+   "name": "Zoro"
+  },
+  {
+   "number": "16",
+   "name": "Buggy/Cabaji/Luffy/Mohji"
+  },
+  {
+   "number": "17",
+   "name": "Buggy/Cabaji/Mohji"
+  },
+  {
+   "number": "18",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "19",
+   "name": "Luffy/Sanji"
+  },
+  {
+   "number": "20",
+   "name": "Chef Zeff/Dracule Mihawk/Luffy/Nami/Sanji/Usopp/Zoro"
+  },
+  {
+   "number": "21",
+   "name": "Gin/Krieg/Luffy/Pearl"
+  },
+  {
+   "number": "22",
+   "name": "Usopp"
+  },
+  {
+   "number": "23",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "24",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "25",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "26",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "27",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "28",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "29",
+   "name": "Buggy"
+  },
+  {
+   "number": "31",
+   "name": "Buggy"
+  },
+  {
+   "number": "32",
+   "name": "Buggy"
+  },
+  {
+   "number": "34",
+   "name": "Buggy"
+  },
+  {
+   "number": "35",
+   "name": "Buggy"
+  },
+  {
+   "number": "39",
+   "name": "Buggy"
+  },
+  {
+   "number": "40",
+   "name": "Alvida/Buggy"
+  },
+  {
+   "number": "42",
+   "name": "Alvida/Buggy"
+  },
+  {
+   "number": "43",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "44",
+   "name": "Monkey D. Luffy/Roronoa Zoro"
+  },
+  {
+   "number": "45",
+   "name": "Buchi/Jango/Kuro/Luffy/Sham"
+  },
+  {
+   "number": "46",
+   "name": "Luffy/Nami/Usopp/Zoro"
+  },
+  {
+   "number": "47",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "48",
+   "name": "Luffy"
+  },
+  {
+   "number": "49",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "50",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "51",
+   "name": "Luffy/Zoro"
+  },
+  {
+   "number": "52",
+   "name": "Zoro"
+  },
+  {
+   "number": "53",
+   "name": "Sanji"
+  },
+  {
+   "number": "54",
+   "name": "Nami"
+  },
+  {
+   "number": "55",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "56",
+   "name": "Luffy/Nami"
+  },
+  {
+   "number": "57",
+   "name": "Luffy"
+  },
+  {
+   "number": "58",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "59",
+   "name": "Bell-Mere/Nami/Nojiko"
+  },
+  {
+   "number": "60",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "61",
+   "name": "Arlong/Chew/Kuroobi/Luffy/Momoo"
+  },
+  {
+   "number": "62",
+   "name": "Genzo/Nami/Nojiko"
+  },
+  {
+   "number": "77",
+   "name": "Buggy Pirates"
+  },
+  {
+   "number": "78",
+   "name": "Buggy Pirates"
+  },
+  {
+   "number": "85",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "87",
+   "name": "Red Hair Pirates"
+  },
+  {
+   "number": "88",
+   "name": "Baroque Works/Luffy"
+  },
+  {
+   "number": "89",
+   "name": "Luffy/Sanji"
+  },
+  {
+   "number": "90",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "91",
+   "name": "Luffy/Sanji/Usopp/Zoro"
+  },
+  {
+   "number": "92",
+   "name": "Luffy/Nami/Usopp/Zoro"
+  },
+  {
+   "number": "93",
+   "name": "Zoro"
+  },
+  {
+   "number": "94",
+   "name": "Nami"
+  },
+  {
+   "number": "95",
+   "name": "Luffy/Nami/Usopp/Zoro"
+  },
+  {
+   "number": "96",
+   "name": "Luffy/Sanji"
+  },
+  {
+   "number": "97",
+   "name": "Luffy/Nami/Zoro"
+  },
+  {
+   "number": "98",
+   "name": "Monkey D. Luffy"
+  },
+  {
+   "number": "99",
+   "name": "Nami"
+  },
+  {
+   "number": "100",
+   "name": "Timetable"
+  },
+  {
+   "number": "101",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "102",
+   "name": "It's Funky One Piece"
+  },
+  {
+   "number": "103",
+   "name": "Be Happy One Piece"
+  },
+  {
+   "number": "104",
+   "name": "Luffy/Nami/Usopp/Zoro"
+  },
+  {
+   "number": "105",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "106",
+   "name": "Brogy/Dorry/Luffy/Nami/Sanji/Usopp/Vivi/Zoro"
+  },
+  {
+   "number": "107",
+   "name": "Karoo/Luffy/Vivi"
+  },
+  {
+   "number": "108",
+   "name": "Brogy the Red Ogre/Dorry the Blue Ogre/Luffy/Usopp"
+  },
+  {
+   "number": "111",
+   "name": "Helmeppo/Koby/Monkey D. Garp/Morgan"
+  },
+  {
+   "number": "116",
+   "name": "Helmeppo/Koby"
+  },
+  {
+   "number": "127",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "128",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "129",
+   "name": "Luffy"
+  },
+  {
+   "number": "130",
+   "name": "Zoro"
+  },
+  {
+   "number": "131",
+   "name": "Nami"
+  },
+  {
+   "number": "132",
+   "name": "Usopp"
+  },
+  {
+   "number": "133",
+   "name": "Sanji"
+  },
+  {
+   "number": "134",
+   "name": "Karoo/Vivi"
+  },
+  {
+   "number": "135",
+   "name": "Nami/Vivi"
+  },
+  {
+   "number": "136",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "137",
+   "name": "Straw Hat Crew"
+  },
+  {
+   "number": "138",
+   "name": "Straw Hat Crew/Vivi"
+  },
+  {
+   "number": "139",
+   "name": "Luffy/Nami/Sanji"
+  },
+  {
+   "number": "140",
+   "name": "Chopper/Dr. Hiriluk/Luffy"
+  },
+  {
+   "number": "141",
+   "name": "Chess/Chopper/Kuromarimo/Luffy/Sanji/Wapol"
+  },
+  {
+   "number": "142",
+   "name": "Straw Hat Crew/Vivi"
+  },
+  {
+   "number": "143",
+   "name": "Spiders Cafe"
+  },
+  {
+   "number": "144",
+   "name": "Ace/Straw Hat Crew"
+  },
+  {
+   "number": "145",
+   "name": "Chaka/Cobra/Koza/Luffy/Pell/Usopp"
+  },
+  {
+   "number": "146",
+   "name": "Luffy"
+  },
+  {
+   "number": "147",
+   "name": "Chopper"
+  },
+  {
+   "number": "148",
+   "name": "Zoro"
+  },
+  {
+   "number": "152",
+   "name": "Helmeppo/Koby"
+  },
+  {
+   "number": "153",
+   "name": "Helmeppo/Koby"
+  },
+  {
+   "number": "158",
+   "name": "Carrot/Onion/Pepper"
+  },
+  {
+   "number": "161",
+   "name": "Kaya & Others"
+  }
+ ]
+}
